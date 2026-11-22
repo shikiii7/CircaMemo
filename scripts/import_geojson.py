@@ -79,14 +79,18 @@ def main():
         return
 
     env = load_env(args.env)
-    if not env.get("POSTGRES_PASSWORD"):
-        parser.error(f"POSTGRES_PASSWORD not found in {args.env}")
+    required = ["POSTGRES_PORT", "POSTGRES_USER", "POSTGRES_PASSWORD"]
+    if not args.database:
+        required.append("POSTGRES_DB")
+    missing = [key for key in required if not env.get(key)]
+    if missing:
+        parser.error(f"Missing {', '.join(missing)} in {args.env}")
 
     connection = psycopg2.connect(
         host=env.get("POSTGRES_HOST", "localhost"),
-        port=int(env.get("POSTGRES_PORT", "5432")),
-        dbname=args.database or env.get("POSTGRES_DB", "citymemo_v1"),
-        user=env.get("POSTGRES_USER", "postgres"),
+        port=int(env["POSTGRES_PORT"]),
+        dbname=args.database or env["POSTGRES_DB"],
+        user=env["POSTGRES_USER"],
         password=env["POSTGRES_PASSWORD"],
     )
 

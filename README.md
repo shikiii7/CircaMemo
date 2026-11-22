@@ -48,10 +48,10 @@ npm install --prefix frontend
 
 ### 3. 初始化数据库
 
-创建数据库，例如 `citymemo_v1`，然后执行：
+创建你自己的数据库，然后执行以下命令，并将 `YOUR_DATABASE_NAME` 替换为实际数据库名：
 
 ```bash
-psql -d citymemo_v1 -f sql/00_init.sql
+psql -d YOUR_DATABASE_NAME -f sql/00_init.sql
 ```
 
 `00_init.sql` 会启用 PostGIS 并创建 `app` schema，需要具有相应权限的数据库账号。
@@ -62,9 +62,9 @@ psql -d citymemo_v1 -f sql/00_init.sql
 
 ```env
 POSTGRES_HOST=localhost
-POSTGRES_PORT=5432
-POSTGRES_DB=citymemo_v1
-POSTGRES_USER=postgres
+POSTGRES_PORT=你的数据库端口
+POSTGRES_DB=你的数据库名
+POSTGRES_USER=你的数据库用户
 POSTGRES_PASSWORD=你的数据库密码
 
 NEXT_PUBLIC_AMAP_KEY=你的高德Key
@@ -80,7 +80,7 @@ GEOSERVER_WMS_URL=你的GeoServerWMS接口地址
 ```bash
 python -m pip install psycopg2-binary
 python scripts/import_geojson.py
-psql -d citymemo_v1 -f sql/01_user_accounts.sql
+psql -d YOUR_DATABASE_NAME -f sql/01_user_accounts.sql
 ```
 
 导入脚本面向空数据库；已经存在的图层表会跳过，不会被覆盖。九张图层表与字段说明见 [docs/data.md](docs/data.md)。
