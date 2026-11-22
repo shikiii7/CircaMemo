@@ -1,0 +1,120 @@
+# 忆城舆图 CircaMemo
+
+忆城舆图（CircaMemo）是面向城市历史文化遗产展示、历史空间认知与公共记忆表达的交互式地图。项目包含完整网站源码、九个公开矢量图层，以及数据库初始化脚本。
+
+![忆城舆图项目首页](docs/images/circamemo-home.png)
+
+## 功能
+
+- 高德地图底图、样式切换、地图搜索与图层控制
+- 西安文保、全国文保、国家级非遗、唐代名人故居等点图层
+- 行政边界、西安历史区域、唐长安 108 坊等面图层
+- 历史时间轴与 GeoServer 历史地图叠加
+- 公众印象词云、讨论内容与城市记忆相册
+- 用户注册登录、文保点记录录入与管理后台
+
+## 技术栈
+
+- Next.js 16、React 19、TypeScript
+- 高德地图 JS API 2.0
+- PostgreSQL 与 PostGIS
+- GeoServer WMS（历史地图）
+
+## 目录
+
+```text
+CircaMemo/
+├── frontend/          # Next.js 网站与运行必需静态资源
+├── data/              # 九个精简 GeoJSON 图层
+├── scripts/           # 数据导入脚本
+├── sql/               # 数据库初始化脚本
+└── docs/              # 数据说明与项目截图
+```
+
+## 本地运行
+
+### 1. 准备环境
+
+- Node.js 20 或更高版本
+- PostgreSQL 与 PostGIS
+- Python 3，用于首次导入数据
+- 高德地图 Web JS API Key 与 Security Code
+
+### 2. 安装依赖
+
+```bash
+npm install --prefix frontend
+```
+
+### 3. 初始化数据库
+
+创建数据库，例如 `citymemo_v1`，然后执行：
+
+```bash
+psql -d citymemo_v1 -f sql/00_init.sql
+```
+
+`00_init.sql` 会启用 PostGIS 并创建 `app` schema，需要具有相应权限的数据库账号。
+
+### 4. 配置环境变量
+
+参考 `frontend/.env.example`，在 `frontend/` 下创建 `.env.local`：
+
+```env
+POSTGRES_HOST=localhost
+POSTGRES_PORT=5432
+POSTGRES_DB=citymemo_v1
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=你的数据库密码
+
+NEXT_PUBLIC_AMAP_KEY=你的高德Key
+NEXT_PUBLIC_AMAP_SECURITY_CODE=你的高德SecurityCode
+NEXT_PUBLIC_IMG_BASE_URL=https://img.chronocityatlas.com
+```
+
+`.env.local` 包含私有配置，不应提交到 Git。
+
+### 5. 导入地图数据和用户表
+
+```bash
+python -m pip install psycopg2-binary
+python scripts/import_geojson.py
+psql -d citymemo_v1 -f sql/01_user_accounts.sql
+```
+
+导入脚本面向空数据库；已经存在的图层表会跳过，不会被覆盖。九张图层表与字段说明见 [docs/data.md](docs/data.md)。
+
+### 6. 启动网站
+
+```bash
+npm run dev
+```
+
+访问 http://localhost:3000。
+
+生产构建与启动：
+
+```bash
+npm run build
+npm run start
+```
+
+## 数据下载
+
+公开数据位于 [data/](data/)，也可直接在 GitHub 浏览：
+
+https://github.com/shikiii7/CircaMemo/tree/main/data
+
+数据仅保留当前网站 API、地图绘制、搜索、筛选与交互所需字段。所有 GeoJSON 使用 WGS 84（EPSG:4326）坐标。字段清单见 [docs/data.md](docs/data.md)。
+
+## 外部服务
+
+- 地图底图需要有效的高德地图 Key。
+- 遗产与非遗封面通过 `NEXT_PUBLIC_IMG_BASE_URL` 加载。
+- 历史地图默认使用项目现有 GeoServer WMS。部署自己的服务时，可通过 `GEOSERVER_WMS_URL` 覆盖地址，并确保 `frontend/public/data/map-metadata.json` 中的图层名与服务一致。
+- 用户上传图片默认保存在 `data/uploads/user-content/`，可通过 `USER_UPLOAD_DIR` 修改。备份用户数据时应同时备份数据库和该目录。
+- 城市记忆相册的 JSON 内容包含在仓库中；其派生 WebP 图片需按 `frontend/public/images/memory-albums/` 中的对应路径单独部署，该图片目录不纳入 Git。
+
+## 许可证
+
+网站源码采用 [MIT License](LICENSE)。第三方地图、图片及数据的原始来源和适用条款仍归各权利方所有；使用或再分发相关数据时，请同时遵守其原始条款。

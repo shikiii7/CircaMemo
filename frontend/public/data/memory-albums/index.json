@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.0",
+  "albums": [
+    {
+      "albumId": "xingqing-palace",
+      "contentVersion": "1.4.0",
+      "primaryPid": "P302",
+      "primaryName": "兴庆宫遗址",
+      "title": "兴庆宫：一座公园，几代人的相册",
+      "coverImage": "/images/memory-albums/xingqing-palace/v1/xingqing-lake-2019.webp",
+      "file": "/data/memory-albums/xingqing-palace.v1.json"
+    }
+  ]
+}

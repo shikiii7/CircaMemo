@@ -1,0 +1,12 @@
+{
+  "name": "circamemo",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix frontend run dev --",
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix frontend run start",
+    "lint": "npm --prefix frontend run lint",
+    "typecheck": "npm --prefix frontend run typecheck",
+    "setup:data": "python scripts/import_geojson.py"
+  }
+}

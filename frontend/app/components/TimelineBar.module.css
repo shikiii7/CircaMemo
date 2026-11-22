@@ -1,0 +1,213 @@
+.timeline {
+  position: absolute;
+  z-index: 20;
+  right: max(150px, 7vw);
+  bottom: 18px;
+  left: max(18px, 7vw);
+  display: grid;
+  grid-template-columns: 70px minmax(0, 1fr);
+  gap: 6px;
+  max-width: 1180px;
+  margin: 0 auto;
+  color: #fff9e9;
+  font-family: "Noto Serif SC", "Songti SC", "STSong", serif;
+  pointer-events: auto;
+  filter: drop-shadow(0 7px 12px rgba(15, 37, 31, 0.22));
+}
+
+.unlimitedButton,
+.mainPanel {
+  border: 1px solid rgba(231, 200, 109, 0.48);
+  background: linear-gradient(115deg, rgba(255, 255, 255, 0.04), transparent 38%), rgba(24, 61, 52, 0.95);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px) saturate(120%);
+}
+
+.unlimitedButton {
+  min-height: 53px;
+  border-radius: 10px 3px 3px 10px;
+  color: #f6e3a0;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  font-family: inherit;
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 -8px 18px rgba(5, 29, 24, 0.18);
+  transition: transform 120ms ease, border-color 120ms ease, background 120ms ease;
+}
+
+.unlimitedButton[aria-pressed="true"] {
+  color: white;
+  border-color: #8ed2d1;
+  background: linear-gradient(150deg, #367f87, #225d60);
+  box-shadow: inset 0 0 0 2px rgba(183, 238, 238, 0.24), inset 0 -8px 18px rgba(5, 29, 24, 0.2);
+}
+
+.unlimitedButton:active { transform: translateY(1px); }
+.unlimitedTitle { font-size: 14px; font-weight: 800; line-height: 1; letter-spacing: 0.1em; }
+.unlimitedSubtitle { color: rgba(255, 241, 199, 0.72); font: 600 8px/1.1 "Microsoft YaHei", sans-serif; letter-spacing: 0.04em; }
+.mainPanel { min-width: 0; border-radius: 3px 10px 10px 3px; overflow: hidden; }
+
+.viewport {
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(231, 200, 109, 0.48) rgba(9, 34, 28, 0.42);
+  overscroll-behavior-x: contain;
+  touch-action: pan-x;
+}
+.viewport::-webkit-scrollbar { height: 5px; }
+.viewport::-webkit-scrollbar-thumb { background: rgba(231, 200, 109, 0.48); border-radius: 5px; }
+.axis { position: relative; height: 51px; }
+
+.yearTrack {
+  position: relative;
+  height: 27px;
+  cursor: ew-resize;
+  touch-action: none;
+  outline: none;
+}
+.yearTrack:focus-visible { box-shadow: inset 0 0 0 3px #b7eeee; }
+.trackLine { position: absolute; top: 19px; right: 0; left: 0; height: 2px; background: linear-gradient(90deg, #a98f52, #f0d77c 50%, #a98f52); }
+
+.axisBreak {
+  position: absolute;
+  z-index: 1;
+  top: 13px;
+  width: 6px;
+  height: 13px;
+  transform: translateX(-50%) skewX(-22deg);
+  border-right: 2px solid #1b443b;
+  border-left: 2px solid #f1d47a;
+  background: rgba(24, 61, 52, 0.98);
+}
+
+.tick { position: absolute; z-index: 2; top: 2px; transform: translateX(-50%); pointer-events: none; }
+.tickMark { position: absolute; top: 11px; left: 50%; width: 1px; height: 9px; transform: translateX(-50%); background: rgba(255, 237, 185, 0.82); }
+.tickLabel { display: block; padding: 1px 3px; border-radius: 2px; background: rgba(24, 61, 52, 0.82); color: rgba(255, 241, 199, 0.88); font: 7px/1 "Microsoft YaHei", sans-serif; white-space: nowrap; }
+
+.mapPoint {
+  position: absolute;
+  z-index: 4;
+  top: 5px;
+  display: grid;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  place-items: center;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: #f0d77c;
+  cursor: pointer;
+}
+
+.mapPointMarker {
+  width: 9px;
+  height: 9px;
+  transform: rotate(45deg);
+  border: 2px solid #fff1b0;
+  border-radius: 2px;
+  background: #c99a24;
+  box-shadow: 0 0 0 2px rgba(201, 154, 36, 0.24), 0 3px 7px rgba(0, 0, 0, 0.38);
+  transition: transform 120ms ease, box-shadow 120ms ease, background 120ms ease;
+}
+
+.mapPoint[aria-pressed="true"] .mapPointMarker {
+  transform: rotate(45deg) scale(1.22);
+  border-color: #fff8d5;
+  background: #f0c84e;
+  box-shadow: 0 0 0 3px #31838a, 0 0 0 6px rgba(142, 210, 209, 0.28), 0 4px 9px rgba(0, 0, 0, 0.44);
+}
+
+.mapPoint:focus-visible { outline: 3px solid #b7eeee; outline-offset: -2px; }
+
+.handle {
+  position: absolute;
+  z-index: 3;
+  top: 12px;
+  box-sizing: border-box;
+  width: 14px;
+  height: 14px;
+  transform: translateX(-50%);
+  border: 2px solid #fff8df;
+  border-radius: 50%;
+  background: #31838a;
+  box-shadow: 0 0 0 3px rgba(49, 131, 138, 0.34), 0 3px 8px rgba(0, 0, 0, 0.4);
+}
+
+.handleLabel {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  padding: 2px 5px;
+  transform: translateX(-50%);
+  border: 1px solid rgba(231, 200, 109, 0.72);
+  border-radius: 4px;
+  background: #153b33;
+  color: #fff9e8;
+  font: 600 8px/1 "Microsoft YaHei", sans-serif;
+  white-space: nowrap;
+}
+
+.periodBand { position: relative; height: 24px; border-top: 1px solid rgba(255, 248, 218, 0.15); }
+.periodButton {
+  position: absolute;
+  top: 0;
+  height: 24px;
+  min-width: 44px;
+  padding: 0 4px;
+  overflow: hidden;
+  border: 0;
+  border-right: 1px solid rgba(255, 248, 218, 0.34);
+  color: #fff9e9;
+  cursor: pointer;
+  font: 600 10px/1 "Noto Serif SC", "Songti SC", serif;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.65);
+  white-space: nowrap;
+}
+.periodButton[aria-pressed="true"] { z-index: 2; color: #fff; box-shadow: inset 0 0 0 2px #8ed2d1, inset 0 -8px 16px rgba(13, 62, 66, 0.36); }
+.periodButton:focus-visible,
+.unlimitedButton:focus-visible { outline: 3px solid #b7eeee; outline-offset: 2px; }
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  white-space: nowrap;
+}
+
+@media (hover: hover) {
+  .mapPoint:hover .mapPointMarker { transform: rotate(45deg) scale(1.18); background: #efd36d; }
+  .periodButton:hover { filter: brightness(1.18); }
+  .unlimitedButton:hover { border-color: #f2d77f; background-color: rgba(35, 77, 66, 0.98); }
+}
+
+@media (max-width: 1000px) and (min-width: 701px) {
+  .timeline { left: 254px; right: 150px; bottom: 16px; }
+}
+
+@media (max-width: 700px) {
+  .timeline { right: 8px; bottom: 96px; left: 8px; max-width: none; margin: 0; grid-template-columns: 54px minmax(0, 1fr); gap: 4px; }
+  .unlimitedButton { min-height: 53px; border-radius: 9px 3px 3px 9px; }
+  .unlimitedTitle { font-size: 13px; }
+  .unlimitedSubtitle { font-size: 8px; letter-spacing: 0; }
+  .mainPanel { border-radius: 3px 9px 9px 3px; }
+  .mapPoint { top: -3px; width: 44px; height: 44px; }
+  .periodButton { min-width: 44px; }
+}
+
+@media (max-height: 600px) and (min-width: 701px) {
+  .timeline { bottom: 12px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .viewport { scroll-behavior: auto; }
+  .periodButton, .unlimitedButton, .mapPointMarker { transition: none; }
+}

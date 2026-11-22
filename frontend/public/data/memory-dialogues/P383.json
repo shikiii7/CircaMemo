@@ -1,0 +1,374 @@
+{
+  "version": 1,
+  "heritage": {
+    "pid": "P383",
+    "heritageName": "大明宫遗址",
+    "displayTitle": "大明宫公众对话",
+    "sourceSite": "大明宫国家遗址公园",
+    "relationLabel": "遗址公众记忆",
+    "relationNote": "评论对象为大明宫国家遗址公园，与 P383“大明宫遗址”直接关联。"
+  },
+  "disclaimer": "以下为不同公开平台的独立摘录，经脱敏、节选与主题整理；并非真实群聊，消息之间不代表回复关系，公众观点不代表本站立场。",
+  "facts": [],
+  "sources": [],
+  "sections": [
+    {
+      "id": "heritage-authenticity",
+      "title": "遗址要保留空白，还是重现盛唐？",
+      "intro": "围绕原真性、保护方式与建筑复原，不同声音被并置在同一主题下。",
+      "items": [
+        {
+          "type": "message",
+          "id": "de68cce3ce3d6f03",
+          "user": "凑合过",
+          "avatarSeed": "b7b44f3c",
+          "excerpt": "up您好，您视频3:57秒处的石子铺地和结尾处的广场应该并非日本庭院中的枯山水，原因如下： 砂面耙成平行的曲线犹如万重波涛或沿石块作同心圆曲线以示惊涛拍岸。 再者，含元殿遗址博物馆是张锦秋先生设计，大明宫遗址公园是刘克成老师保护规划，两位都是我国历史遗产保护的大师，应当不会出现低级问题。…",
+          "publishedAt": "2023-04-04",
+          "source": "bilibili",
+          "likes": 136,
+          "topic": "heritage-authenticity",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        },
+        {
+          "type": "message",
+          "id": "fd7f9b2841f461d5",
+          "user": "暮色苍茫",
+          "avatarSeed": "019d4d5b",
+          "excerpt": "目前没有历史记载枯山水起源于唐朝，日本学习唐朝的园林是学习了中国园林“堆土为山，一勺则江湖万顷”的概念，我们的园林用堆土挖渠表示陆地山水，他们用沙石表现海岛，虽然有学习，但运用白石子的理念不是我们的，我们的水就是引水",
+          "publishedAt": "2023-04-05",
+          "source": "bilibili",
+          "likes": 19,
+          "topic": "heritage-authenticity",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        },
+        {
+          "type": "message",
+          "id": "e0073d208f0344b0",
+          "user": "白露",
+          "avatarSeed": "83889426",
+          "excerpt": "大明宫丹凤门复原的确实不好看。 目前考古只发现了丹凤门的地面门道遗迹，而这个门到底是什么样子目前无从知晓（没有留下图纸，壁画里也没发现），只知道有五个门道，到底是几层门楼现在都没有定论。 现在这个“门”是一个钢结构的罩子，把门道遗迹罩在里面保护，做成这种未上色的“泥坯”造型，其实就是表明它是“非完成品”，是很负责任的做法。…",
+          "publishedAt": "2023-10-21",
+          "source": "bilibili",
+          "likes": 901,
+          "topic": "heritage-authenticity",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        },
+        {
+          "type": "message",
+          "id": "fd70d719c7f5e8fe",
+          "user": "素心听雪",
+          "avatarSeed": "45256cb3",
+          "excerpt": "up展示的含元殿的复原图和现在实际的复原展示是不一样的，这是一个特别好的关于复原的例子，证明了不管多么充分的论证，都可能远离历史事实，这其实也是目前国内不提倡复原的原因，不只是要不要，还有能不能",
+          "publishedAt": "2023-10-21",
+          "source": "bilibili",
+          "likes": 91,
+          "topic": "heritage-authenticity",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        },
+        {
+          "type": "message",
+          "id": "5f374247c92deb7c",
+          "user": "静水流深",
+          "avatarSeed": "6f010fe5",
+          "excerpt": "大遗址保护的原则不一样。 西安这边是保护优先，尽量保护原貌，不破坏原有的遗址环境。 洛阳是遵循梁陈方案那种保护性重建，叠到遗址上面进行景观复原。",
+          "publishedAt": "2023-10-22",
+          "source": "bilibili",
+          "likes": 208,
+          "topic": "heritage-authenticity",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        },
+        {
+          "type": "message",
+          "id": "5fffd846a3905456",
+          "user": "糖豆豆",
+          "avatarSeed": "5cceb5b7",
+          "excerpt": "其实关于丹凤门的壁画是有的，比如宋代吕大防的长安城石刻图，里面凤门为五门+挟屋形制。 敦煌壁画的云宫正门(可能是模仿丹凤门)，也是五门+挟屋。 并且现在地面遗址已经确定，通过墩台的面阔和纵深，按照收分比例就可以知道墩台顶部的大小。…",
+          "publishedAt": "2023-10-22",
+          "source": "bilibili",
+          "likes": 85,
+          "topic": "heritage-authenticity",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        },
+        {
+          "type": "message",
+          "id": "19f3a580eff76c67",
+          "user": "在路上",
+          "avatarSeed": "b9fd1035",
+          "excerpt": "大明宫含元殿是不存在什么修缮的，它已经毁得只剩遗址了，现在这个样子依据的是澳大利亚IAPA设计顾问公司做的遗址公园规划。 它采用的是西方的一套理念，主张保持遗址的原真性，用象征性的，可以辨认的景观手法来对场地的历史进行隐喻。 其实以我个人来看，IAPA对中国古建筑的理解还比较粗浅，而且西方这一套原真性原则也不适合中国的环境，不如我们过去常常采用的整旧如旧原则。",
+          "publishedAt": "2023-10-25",
+          "source": "bilibili",
+          "likes": 37,
+          "topic": "heritage-authenticity",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        },
+        {
+          "type": "message",
+          "id": "9c23ca20439b16fa",
+          "user": "天际微光",
+          "avatarSeed": "c3bb121d",
+          "excerpt": "我非常支持重建，即便不可能1比1。 不要再去讨论文物保护，中国古建筑作为灿烂历史和文化的集合体，就不应该只存在和记录在书本里。 因为站在100年后看，重建也如旧的古建筑，也是一件文物，可以触摸可以感受可以使用。…",
+          "publishedAt": "2025-10-05",
+          "source": "xiaohongshu",
+          "likes": 0,
+          "topic": "heritage-authenticity",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        },
+        {
+          "type": "message",
+          "id": "769e65f33f6d0472",
+          "user": "天际微光",
+          "avatarSeed": "c3bb121d",
+          "excerpt": "我一直觉得这个土色设计的特别好，每次看到巨大的如同尘封泥中的丹凤门横亘眼前，都有一种西风残照的美感，就像一个历史幽灵的复现一样，我以为这样设计，就是为了告诉客，这是一个历史的幻影，实际什么都不在了…",
+          "publishedAt": "2025-11-24",
+          "source": "xiaohongshu",
+          "likes": 0,
+          "topic": "heritage-authenticity",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        }
+      ]
+    },
+    {
+      "id": "historical-imagination",
+      "title": "看见土台，也看见土台背后的历史",
+      "intro": "遗址的可读性常常依赖背景知识，也承载着本地人的成长记忆。",
+      "items": [
+        {
+          "type": "message",
+          "id": "01c950929db58821",
+          "user": "墨白",
+          "avatarSeed": "e51db69a",
+          "excerpt": "up主才是来西安旅行的正确打开方式，很多人来都留下一句西安全是土堆、泥人、石刻没啥意思，但是up主上个视频说了句我很喜欢的话，“你不要看这个土堆、，你要看到土堆背后的东西”，你就感觉到up主是做了功课的、真的喜欢历史文化的。",
+          "publishedAt": "2023-07-09",
+          "source": "bilibili",
+          "likes": 52,
+          "topic": "historical-imagination",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        },
+        {
+          "type": "message",
+          "id": "c413afab8c819d0e",
+          "user": "竹影摇光",
+          "avatarSeed": "ffd57b36",
+          "excerpt": "小时候路过大明宫北部的土路 旁边都是苞谷地 能看到有大土丘 当时以为是哪个皇帝的坟 在西安已经见怪不怪了 后来大明宫修好后去转才知道哪是皇宫的殿宇地基",
+          "publishedAt": "2023-10-21",
+          "source": "bilibili",
+          "likes": 72,
+          "topic": "historical-imagination",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        },
+        {
+          "type": "message",
+          "id": "e82528e1b9c2f3bb",
+          "user": "夏至",
+          "avatarSeed": "12a963c8",
+          "excerpt": "行程的第四天早起去了比西安地铁更挤的兵马俑，下午回来爷俩就不愿意动弹了，一人抱着一个本打游戏喝茶水。 我睡了一觉，起来感觉良好，在大姨妈刚到第二天而且下着雨的情况下，自己打车去了这个几乎无人问津的大明宫遗址公园。 真好，到了之后雨就渐渐小了，空无几人的园区，穿越了千年的含元殿残垣静静卧在蒙蒙细雨里，更增加了几分历史的厚重感，我摸了摸，它们已经比石头还坚硬——...…",
+          "publishedAt": "2025-05-25",
+          "source": "xiaohongshu",
+          "likes": 556,
+          "topic": "historical-imagination",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        },
+        {
+          "type": "message",
+          "id": "8e09cfbbdc7d4f5b",
+          "user": "拾光者",
+          "avatarSeed": "9acaf3da",
+          "excerpt": "一道道光束穿透云层，如天梯垂落，照亮丹凤门的城楼，昔日的千宫之宫，此刻在光影明暗间起伏，镌刻着千年风霜的印记，航拍视角下的光影大明宫，是凝固的史诗，是盛唐留在大地上最深刻的印记，诉说着那永不褪色的盛唐气魄。…",
+          "publishedAt": "2025-07-03",
+          "source": "xiaohongshu",
+          "likes": 423,
+          "topic": "historical-imagination",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        },
+        {
+          "type": "message",
+          "id": "08ce78e3dc9118fd",
+          "user": "天际微光",
+          "avatarSeed": "c3bb121d",
+          "excerpt": "我很喜欢，这是一个内心感受大于眼前所见的地方。站在那里联想历史课本里的地点，感受会很不一样。",
+          "publishedAt": "2025-10-29",
+          "source": "xiaohongshu",
+          "likes": 0,
+          "topic": "historical-imagination",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        }
+      ]
+    },
+    {
+      "id": "visitor-experience",
+      "title": "门票、距离与一次真实的游览",
+      "intro": "有人觉得值得，有人对收费、博物馆和巨大的步行尺度感到失望。",
+      "items": [
+        {
+          "type": "message",
+          "id": "b1f2f34175a7e23f",
+          "user": "Momo",
+          "avatarSeed": "28d7ef94",
+          "excerpt": "一些本地朋友一直没来，也许与收费有关。不过微缩景观和开阔尺度，仍让人第一次感受到大明宫的宏大。",
+          "publishedAt": "2022-09-14",
+          "source": "xiaohongshu",
+          "likes": 871,
+          "topic": "visitor-experience",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        },
+        {
+          "type": "message",
+          "id": "3fd3ec98ffbe34b4",
+          "user": "阿澈",
+          "avatarSeed": "a9275f9c",
+          "excerpt": "终于把大明宫遗址公园走下来了，后悔怎么才进博物馆。这里很适合带孩子理解盛唐宫城，但园区真的很大。",
+          "publishedAt": "2024-03-14",
+          "source": "xiaohongshu",
+          "likes": 2483,
+          "topic": "visitor-experience",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        },
+        {
+          "type": "message",
+          "id": "8403592932f2ae12",
+          "user": "芝士奶盖",
+          "avatarSeed": "6cdf842f",
+          "excerpt": "大明宫遗址就不是热门的旅游点，我前两年元旦小长假去，市内景区都是人山人海，兵马俑、陕西博物馆挤都挤不进去，但是大明宫就那么十来个人在闲逛。 我同行的朋友都不愿意去，他们说攻略写就是一个什么都没有的破公园没啥可去的我纯粹是喜欢历史文化，非常想去所以最后自己一个人去看了，我觉得很值得，当然只是就个人感受来说，纯来旅游观光的确实看不出什么东西。",
+          "publishedAt": "2024-04-11",
+          "source": "bilibili",
+          "likes": 2,
+          "topic": "visitor-experience",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        },
+        {
+          "type": "message",
+          "id": "1276d388c44e636f",
+          "user": "春分",
+          "avatarSeed": "3e8fc4b7",
+          "excerpt": "即便我爱看夯土台基，即便挺喜欢丹凤门遗址“不复原”的形式，还可以假装看不见遗址区的绝丑雕塑和灯展施工材料，但两个博物馆实在太太太敷衍了 丹凤门遗址博物馆刚进馆就让人感觉不妙，哪个鬼才设计师在黑色墙上用暗金色印字，加上射灯从顶部打光，不走到靠墙一米都看不到字的存在。 几张椅子不在多媒体屏幕的对面，而是跟多媒体屏幕靠墙站军姿，朋友们，魔鬼在细节，此时此刻我已经感觉到了不妙，这显然是…",
+          "publishedAt": "2025-01-19",
+          "source": "xiaohongshu",
+          "likes": 534,
+          "topic": "visitor-experience",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        },
+        {
+          "type": "message",
+          "id": "7b9eeff6bf3f8083",
+          "user": "Nico",
+          "avatarSeed": "d709c050",
+          "excerpt": "除核心遗址展示区外，公园很大一部分已经成为市民休闲和锻炼的日常空间。",
+          "publishedAt": "2025-10-05",
+          "source": "xiaohongshu",
+          "likes": 299,
+          "topic": "visitor-experience",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        },
+        {
+          "type": "message",
+          "id": "af1ad0b517fd09b8",
+          "user": "小蘑菇",
+          "avatarSeed": "1b3cbaaf",
+          "excerpt": "公园既有遗址展示区，也有向市民开放的日常空间。曾经的“千宫之宫”如今很空旷，风吹过时更能感到时间的距离。",
+          "publishedAt": "2026-01-20",
+          "source": "xiaohongshu",
+          "likes": 112,
+          "topic": "visitor-experience",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        }
+      ]
+    },
+    {
+      "id": "urban-park-life",
+      "title": "从宫城遗址到今天的城市公园",
+      "intro": "跑步、赏花、遛娃与秋日散步，让遗址继续参与当代城市生活。",
+      "items": [
+        {
+          "type": "message",
+          "id": "89f1cebe37bda6cd",
+          "user": "落日飞车",
+          "avatarSeed": "9e07afc6",
+          "excerpt": "这个春天来大明宫看花。遗址、公园和成片花树叠在一起，散步时会不断遇见新的景色。",
+          "publishedAt": "2025-03-21",
+          "source": "xiaohongshu",
+          "likes": 875,
+          "topic": "urban-park-life",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        },
+        {
+          "type": "message",
+          "id": "f4339701dbda8654",
+          "user": "星河漫步",
+          "avatarSeed": "b5cfbde1",
+          "excerpt": "大明宫的晨光里，脚步与晨风同频。热爱跑步的人，总能在不同城市找到新的同伴。",
+          "publishedAt": "2025-07-17",
+          "source": "xiaohongshu",
+          "likes": 141,
+          "topic": "urban-park-life",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        },
+        {
+          "type": "message",
+          "id": "d83a56863a326612",
+          "user": "小麦",
+          "avatarSeed": "fa37b9f1",
+          "excerpt": "秋天把长安，藏进了大明宫遗址里，美得像一阙盛唐的词。…",
+          "publishedAt": "2025-11-16",
+          "source": "xiaohongshu",
+          "likes": 532,
+          "topic": "urban-park-life",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        },
+        {
+          "type": "message",
+          "id": "b4610af6dea93057",
+          "user": "中不中",
+          "avatarSeed": "f9b2bb41",
+          "excerpt": "那市区也有一处绝美赏秋地 公园里现在五颜六色🎨 主要这个公园在市区 生活气息很浓厚…",
+          "publishedAt": "2025-11-20",
+          "source": "xiaohongshu",
+          "likes": 197,
+          "topic": "urban-park-life",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        }
+      ]
+    }
+  ],
+  "quality": {
+    "originalCount": 50,
+    "retainedCount": 24,
+    "removedCount": 26,
+    "removedByReason": {
+      "unsupported_or_rumor": 7,
+      "promotion_or_transient_event": 6,
+      "off_topic": 1,
+      "duplicate_or_low_increment": 12
+    },
+    "uniqueUsers": 22,
+    "maxMessagesPerUser": 3,
+    "sourceCounts": {
+      "bilibili": 10,
+      "xiaohongshu": 14
+    },
+    "generatedAt": "2026-08-08"
+  }
+}

@@ -1,0 +1,108 @@
+.panel {
+  position: absolute;
+  z-index: 21;
+  top: 12px;
+  left: 12px;
+  display: flex;
+  box-sizing: border-box;
+  width: 230px;
+  max-width: calc(100% - 24px);
+  max-height: calc(100% - 136px);
+  flex-direction: column;
+  padding: 10px 14px;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  background: var(--color-paper-translucent);
+  box-shadow: 0 6px 20px var(--color-shadow);
+  backdrop-filter: blur(6px);
+}
+
+.heading {
+  flex-shrink: 0;
+  margin-bottom: 6px;
+  color: #2a5c70; /* 青绿系，比 --color-blue (#35758c) 深一档 */
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.options {
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(53, 117, 140, 0.5) transparent;
+}
+
+.publicControls {
+  flex-shrink: 0;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--color-border-soft);
+}
+
+.publicGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 6px;
+}
+
+.layerRow {
+  min-height: 24px;
+}
+
+.publicButton {
+  min-height: 32px;
+  transition: box-shadow 140ms ease, font-weight 140ms ease, transform 140ms ease;
+}
+
+.publicButton[aria-pressed="true"] {
+  font-weight: 600;
+  box-shadow: inset 0 0 0 1px currentcolor, 0 2px 8px rgba(23, 59, 49, 0.12);
+  transform: translateY(-1px);
+}
+
+.collapsedPanel {
+  width: auto;
+  padding: 0;
+  overflow: visible;
+}
+
+.expandButton {
+  min-height: 40px;
+  padding: 0 14px;
+  border: 0;
+  border-radius: 9px;
+  background: transparent;
+  color: #2a5c70;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+@media (max-width: 700px) {
+  .panel {
+    top: 8px;
+    left: 8px;
+    width: 218px;
+    max-width: calc(100% - 70px);
+    max-height: calc(100% - 224px);
+    padding: 8px 10px;
+  }
+
+  .layerRow {
+    min-height: 40px;
+  }
+
+  .publicButton {
+    min-height: 42px;
+  }
+}
+
+@media (max-height: 600px) and (min-width: 701px) {
+  .panel {
+    max-height: calc(100% - 132px);
+  }
+}

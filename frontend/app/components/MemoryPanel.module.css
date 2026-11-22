@@ -1,0 +1,147 @@
+.overlay {
+  position: absolute;
+  z-index: 40;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+  background:
+    radial-gradient(circle at 22% 18%, rgba(218, 162, 74, 0.18), transparent 34%),
+    rgba(14, 31, 26, 0.66);
+  backdrop-filter: blur(5px) saturate(0.9);
+}
+
+.panel {
+  position: relative;
+  display: grid;
+  width: min(580px, 94vw);
+  height: min(740px, 90vh);
+  grid-template-rows: 58px minmax(0, 1fr);
+  overflow: hidden;
+  border: 1px solid rgba(255, 244, 216, 0.72);
+  border-radius: 20px;
+  outline: none;
+  background: #f6ecd8;
+  box-shadow:
+    0 28px 80px rgba(3, 16, 12, 0.48),
+    0 0 0 5px rgba(255, 255, 255, 0.09);
+  animation: panelEnter 360ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+.header {
+  position: relative;
+  display: grid;
+  place-items: center;
+  padding: 0 58px;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(247, 203, 110, 0.34);
+  background:
+    linear-gradient(105deg, rgba(255, 255, 255, 0.04), transparent 38%),
+    #173d34;
+}
+
+.header::before,
+.header::after {
+  position: absolute;
+  width: 82px;
+  height: 82px;
+  border: 1px solid rgba(247, 203, 110, 0.14);
+  border-radius: 50%;
+  content: "";
+}
+
+.header::before {
+  top: -57px;
+  left: -18px;
+}
+
+.header::after {
+  right: 18px;
+  bottom: -69px;
+}
+
+.title {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  color: #fff7e6;
+  font-family: "Noto Serif SC", "Songti SC", "Microsoft YaHei", serif;
+  font-size: 17px;
+  font-weight: 750;
+  letter-spacing: 0.035em;
+  line-height: 1.25;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.closeButton {
+  position: absolute;
+  z-index: 2;
+  top: 11px;
+  right: 13px;
+  display: grid;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  place-items: center;
+  border: 1px solid rgba(255, 247, 230, 0.22);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff7e6;
+  cursor: pointer;
+  font-size: 17px;
+  line-height: 1;
+  transition:
+    background 160ms ease,
+    transform 160ms ease;
+}
+
+.closeButton:hover {
+  background: rgba(215, 91, 62, 0.9);
+  transform: rotate(4deg) scale(1.04);
+}
+
+.closeButton:focus-visible {
+  outline: 3px solid #f5c760;
+  outline-offset: 2px;
+}
+
+@keyframes panelEnter {
+  from {
+    opacity: 0;
+    transform: translateY(18px) scale(0.965);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@media (max-width: 640px) {
+  .overlay {
+    padding: 8px;
+  }
+
+  .panel {
+    width: 100%;
+    height: min(780px, calc(100% - 16px));
+    border-radius: 17px;
+  }
+
+  .title {
+    font-size: 15px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .panel {
+    animation: none;
+  }
+
+  .closeButton {
+    transition: none;
+  }
+}

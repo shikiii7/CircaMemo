@@ -1,0 +1,42 @@
+.searchFeedback {
+  position: absolute;
+  z-index: 34;
+  right: 16px;
+  bottom: 126px;
+  box-sizing: border-box;
+  max-width: min(520px, calc(100% - 32px));
+  padding: 9px 12px;
+  border: 1px solid rgba(138, 90, 43, 0.28);
+  border-radius: 10px;
+  background: rgba(255, 253, 247, 0.96);
+  box-shadow: 0 8px 24px rgba(26, 48, 40, 0.18);
+  color: #4f3a2b;
+  font-size: 12px;
+  line-height: 1.55;
+  pointer-events: none;
+}
+
+@media (max-width: 1000px) and (min-width: 701px) {
+  .searchFeedback {
+    right: 12px;
+    bottom: 126px;
+    max-width: min(430px, calc(100% - 276px));
+  }
+}
+
+@media (max-width: 700px) {
+  .searchFeedback {
+    right: 8px;
+    bottom: 204px;
+    left: 8px;
+    max-width: none;
+    padding: 8px 10px;
+    font-size: 11px;
+  }
+}
+
+@media (max-height: 640px) and (min-width: 701px) {
+  .searchFeedback {
+    bottom: 124px;
+  }
+}

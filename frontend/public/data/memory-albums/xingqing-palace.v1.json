@@ -1,0 +1,1403 @@
+{
+  "$schema": "/data/memory-albums/schema.v1.json",
+  "schemaVersion": "1.0",
+  "albumId": "xingqing-palace",
+  "contentVersion": "1.4.0",
+  "status": "static-content-ready",
+  "locale": "zh-CN",
+  "createdAt": "2026-08-09",
+  "binding": {
+    "primaryPid": "P302",
+    "primaryName": "兴庆宫遗址",
+    "related": [
+      {
+        "pid": "P299",
+        "name": "兴庆公园沉香亭",
+        "relationship": "园内关联遗产点，可作为后续入口指向本相册；相册内容仍只归属 P302。",
+        "duplicateAlbum": false
+      }
+    ]
+  },
+  "title": "兴庆宫：一座公园，几代人的相册",
+  "subtitle": "从 1958 年的共同建园，到花展、游乐场、大象滑梯、跨文化纪念与旧园新生",
+  "summary": "兴庆宫公园既建立在历史遗址之上，也由市民共同建设、使用和记忆。本相册沿共同建园、童年游乐、人民公园日常、跨文化纪念与旧园更新五条线索，呈现一处公共空间如何进入几代西安人的生活。",
+  "coverImageId": "img-xingqing-lake-2019",
+  "editorialNotes": [
+    "本相册讨论的是现代城市公园记忆，不以现代城市影像替代或冒充 1950—1980 年代历史照片。",
+    "新增历史图严格区分建园题材绘画、带原题注的历史照片、报刊资料与具体日期未标明的早期公园影像。",
+    "2018 年口述中的“1956 年挖湖”只作为个人回忆呈现，不替代校史与公园官网所记 1958 年春全面建设时间。",
+    "大象滑梯章节严格区分 1964 年建成的原物与 2023 年投入使用的 1:1 新制复原品。",
+    "阿倍仲麻吕纪念碑章节采用 2015 年现代影像记录纪念物现状，不将其表述为 1979 年落成时的历史照片。",
+    "文章来源仅用于事实核验与策展改写；本包不复制新闻全文。",
+    "图片选择不以版权或许可状态为准入条件；公开展示时清楚保留来源页面与作者或摄影者信息。"
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "order": 1,
+      "eyebrow": "兴庆宫城市记忆",
+      "title": "兴庆宫：一座公园，几代人的相册",
+      "blocks": [
+        {
+          "kind": "lead",
+          "text": "从 1958 年的共同建园，到花展、游乐场、大象滑梯、阿倍仲麻吕纪念碑和 2021 年后的旧园新生。"
+        },
+        {
+          "kind": "note",
+          "text": "封面为 2019 年兴庆湖城市影像，不是建园初期旧照。"
+        }
+      ],
+      "imageIds": [
+        "img-xingqing-lake-2019"
+      ],
+      "sourceIds": [
+        "official_2022_anniversary",
+        "official_childhood_memory",
+        "art_0001",
+        "art_0100",
+        "art_0004"
+      ]
+    },
+    {
+      "id": "people-build-park",
+      "type": "feature",
+      "order": 2,
+      "eyebrow": "人民建园",
+      "title": "十七万人，共同建起一座公园",
+      "blocks": [
+        {
+          "kind": "lead",
+          "text": "兴庆公园不是一次封闭施工的成果。1958 年春，市民、机关干部、学校师生和部队共同参加挖湖、运土、修路与植树，把一片建设现场变成了可以共享的城市公园。"
+        },
+        {
+          "kind": "fact",
+          "heading": "1955—1956：从设想到“兴庆池苗圃”",
+          "text": "1955 年，西安市政府决定在唐兴庆宫遗址建设兴庆公园；1956 年建设局提出先建苗圃、后建公园的规划草案，名称为“兴庆池苗圃”。"
+        },
+        {
+          "kind": "fact",
+          "heading": "1958：十七万人次的劳动",
+          "text": "公园官网与交大校史材料记载，1958 年春全面建设展开，累计约 17 万人次参加义务劳动；工程搬运土方 39.5 万立方米，修筑环湖路 8 公里，植树栽花 8 万余株。"
+        },
+        {
+          "kind": "fact",
+          "heading": "1958 年 7 月 10 日：建设者成为第一批游客",
+          "text": "公园正式开放时，“兴庆池苗圃”更名为“兴庆公园”。官网记载，第一批入园者正是参加建园劳动的各界群众和机关干部。"
+        },
+        {
+          "kind": "paragraph",
+          "text": "2018 年接受《华商报》采访时，龚俊杰回忆中学时期全校师生每周参加挖湖劳动，受伤后仍坚持前往。这段口述保留了个人经历的细节，但其中“1956 年”的回忆与机构资料所记 1958 年全面建设不同，因此不据此改写主时间线。"
+        },
+        {
+          "kind": "note",
+          "text": "本章第一幅为后来的建园题材绘画；第二幅保留“王安英摄”的原始中文题注；第三幅为来源页未标明报刊名称和摄影者的报刊资料。三者均按实际媒介说明，不互相冒充。"
+        }
+      ],
+      "imageIds": [
+        "img-building-labor-artwork-1958",
+        "img-building-volunteer-labor-1958",
+        "img-building-newspaper-labor-1958"
+      ],
+      "sourceIds": [
+        "official_2022_anniversary",
+        "art_0034",
+        "official_name_changes",
+        "xjtu_2018_oral_history"
+      ]
+    },
+    {
+      "id": "elephant-slide",
+      "type": "feature",
+      "order": 3,
+      "eyebrow": "旧物、保存与复原",
+      "title": "大象滑梯：两代“大象”，几代童年",
+      "blocks": [
+        {
+          "kind": "lead",
+          "text": "大象滑梯的回归不是让原物重新承载游玩，而是让原物继续陈列，同时以一对新滑梯延续共同记忆。"
+        },
+        {
+          "kind": "fact",
+          "heading": "1964：原物建成",
+          "text": "据公园方介绍，一大一小两座钢筋水泥大象滑梯建于 1964 年，后来成为几代西安市民共同的童年记忆。"
+        },
+        {
+          "kind": "fact",
+          "heading": "2021：移至龙堂陈列",
+          "text": "公园提升改造时，原大象滑梯被移至龙堂区域陈列展示，不再供游玩。"
+        },
+        {
+          "kind": "fact",
+          "heading": "2023：1:1 新制复原品投入使用",
+          "text": "2023 年国庆节前夕，公园在亲子游乐区按照原样 1:1 制作一对新滑梯并投入使用；供游玩的不是 1964 年原物。"
+        },
+        {
+          "kind": "note",
+          "text": "本章并置原物陈列、新制复原品、城市记忆展览馆照片墙与当代游玩场景；四张新闻图均保留“陕西头条 @ 西部网”水印及完整来源。"
+        }
+      ],
+      "imageIds": [
+        "img-elephant-slide-original-display-2023",
+        "img-elephant-slide-new-pair-2023",
+        "img-elephant-slide-memory-exhibition-2023",
+        "img-elephant-slide-new-generation-2023"
+      ],
+      "sourceIds": [
+        "art_0001",
+        "art_0002",
+        "art_0005"
+      ]
+    },
+    {
+      "id": "peoples-park-life",
+      "type": "timeline",
+      "order": 4,
+      "eyebrow": "人民公园的日常",
+      "title": "花展、游乐场与一代代游人",
+      "blocks": [
+        {
+          "kind": "lead",
+          "text": "共同建园之后，兴庆宫通过花展、游乐设施、湖上活动与日常锻炼进入城市生活。公园的历史不仅是建筑和改造史，也是西安人反复到来、共同使用的生活史。"
+        },
+        {
+          "kind": "fact",
+          "heading": "名字也记录时代",
+          "text": "官网名称时间线显示：1958 年定名“兴庆公园”，1966 年改为“人民公园”，1972 年恢复“兴庆公园”，1979 年定名“兴庆宫公园”并沿用至今。"
+        },
+        {
+          "kind": "fact",
+          "heading": "花展成为季节约定",
+          "text": "秋季菊花展自 1963 年开始，郁金香与牡丹花展自 1993 年开始，大丽花展自 2000 年开始。按时看花逐渐成为市民反复进入公园的一种季节节奏。"
+        },
+        {
+          "kind": "fact",
+          "heading": "从电动转马到电动小火车",
+          "text": "兴庆宫公园官网记载，游乐场最初建于 1973 年，首个项目是电动转马；1985 年，园内开通全市第一辆电动小火车。"
+        },
+        {
+          "kind": "paragraph",
+          "text": "与母子大象滑梯一起，这些设施构成了几代儿童对兴庆宫的空间记忆：排队、滑下、乘车、划船，以及节假日和家人一起游园。"
+        },
+        {
+          "kind": "paragraph",
+          "text": "今天，秦腔、合唱、舞蹈、踢毽、打拳、跑步与球类活动仍在园中发生。皇家园林遗址由此持续成为普通市民能够进入和使用的公共空间。"
+        },
+        {
+          "kind": "note",
+          "text": "本章早期兴庆湖照片可见密集游船与游人，但来源页没有标明具体拍摄日期；相册只将其作为早期游园影像，不称为 1958 年开园当天现场。"
+        }
+      ],
+      "imageIds": [
+        "img-xingqing-lake-early-undated"
+      ],
+      "sourceIds": [
+        "official_childhood_memory",
+        "official_name_changes",
+        "official_daily_life",
+        "official_2022_anniversary"
+      ]
+    },
+    {
+      "id": "renewal",
+      "type": "feature",
+      "order": 5,
+      "eyebrow": "旧园新生",
+      "title": "在保留记忆中更新公共空间",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "2020 年 12 月 25 日，公园开始建园 62 年后的首次全面闭园改造。改造涉及遗址保护性展示、文化建筑修缮、水生态治理、园林和公共服务设施。"
+        },
+        {
+          "kind": "paragraph",
+          "text": "2021 年 7 月 1 日，公园重新免费开放。相关报道反复强调保留原有公园格局、湖形和既有记忆要素；更新由此不仅关乎景观，也关乎共同生活如何被继续辨认。"
+        },
+        {
+          "kind": "note",
+          "text": "本章同时收录 2021 年改造施工现场，以及 2010、2019、2022 年不同时间和机位的现代城市影像；它们用于补充公园更新过程，不构成严格的同机位前后对照。"
+        }
+      ],
+      "imageIds": [
+        "img-xingqing-lake-2019",
+        "img-chenxiang-pavilion-2010",
+        "img-east-gate-2010",
+        "img-south-gate-2022",
+        "img-renewal-construction-pavilion-2021",
+        "img-renewal-lakeside-works-2021",
+        "img-renewal-lake-ecology-2021",
+        "img-renewal-site-machinery-2021",
+        "img-renewal-reopening-scene-2021"
+      ],
+      "sourceIds": [
+        "art_0084",
+        "art_0003",
+        "art_0004",
+        "art_0002"
+      ]
+    },
+    {
+      "id": "abe-nakamaro-memorial",
+      "type": "feature",
+      "order": 6,
+      "eyebrow": "长安与奈良之间",
+      "title": "跨文化记忆：阿倍仲麻吕纪念碑",
+      "blocks": [
+        {
+          "kind": "lead",
+          "text": "兴庆宫公园里的阿倍仲麻吕纪念碑，把唐代长安的交往史带入现代城市公园，也让西安与奈良之间的文化联系获得一处可见的纪念空间。"
+        },
+        {
+          "kind": "fact",
+          "heading": "1979：纪念碑落成",
+          "text": "兴庆宫公园官网记载，公园于 1979 年增建阿倍仲麻吕纪念碑及长庆轩。奈良国立博物馆教育普及室的文章同样记载该碑于 1979 年完成。"
+        },
+        {
+          "kind": "fact",
+          "heading": "碑上的跨文化叙事",
+          "text": "纪念碑以白色大理石制成，正面刻有“阿倍仲麻呂紀念碑”，背面记述其功绩；碑顶饰有梅花与樱花浮雕，基部栏板刻有遣唐使船，侧面还刻有李白诗作。"
+        },
+        {
+          "kind": "note",
+          "text": "本章照片摄于 2010、2012 与 2015 年，用于记录纪念碑的现代状态，不是 1979 年落成时的历史影像。"
+        }
+      ],
+      "imageIds": [
+        "img-abe-nakamaro-memorial-2015",
+        "img-abe-nakamaro-memorial-2012",
+        "img-abe-nakamaro-memorial-2010"
+      ],
+      "sourceIds": [
+        "art_0011",
+        "art_0100"
+      ]
+    },
+    {
+      "id": "credits",
+      "type": "credits",
+      "order": 7,
+      "eyebrow": "来源与署名",
+      "title": "这本相册如何建立",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "本章逐项展示 14 篇核心文章来源的标题、媒体或机构、日期、作者、链接与策展用途，以及 20 张派生图片的作者、来源和处理说明。"
+        },
+        {
+          "kind": "note",
+          "text": "图片选择不以版权或许可状态为准入条件；公开展示时清楚标明来源页面与作者或摄影者信息。"
+        }
+      ],
+      "imageIds": [
+        "img-xingqing-lake-2019",
+        "img-elephant-slide-original-display-2023",
+        "img-abe-nakamaro-memorial-2015",
+        "img-chenxiang-pavilion-2010",
+        "img-east-gate-2010",
+        "img-south-gate-2022",
+        "img-elephant-slide-new-pair-2023",
+        "img-elephant-slide-memory-exhibition-2023",
+        "img-elephant-slide-new-generation-2023",
+        "img-renewal-construction-pavilion-2021",
+        "img-renewal-lakeside-works-2021",
+        "img-renewal-lake-ecology-2021",
+        "img-renewal-site-machinery-2021",
+        "img-renewal-reopening-scene-2021",
+        "img-abe-nakamaro-memorial-2012",
+        "img-abe-nakamaro-memorial-2010",
+        "img-building-labor-artwork-1958",
+        "img-building-volunteer-labor-1958",
+        "img-building-newspaper-labor-1958",
+        "img-xingqing-lake-early-undated"
+      ],
+      "sourceIds": [
+        "art_0034",
+        "art_0084",
+        "art_0003",
+        "art_0004",
+        "art_0002",
+        "art_0001",
+        "art_0005",
+        "art_0011",
+        "art_0100",
+        "official_2022_anniversary",
+        "official_childhood_memory",
+        "official_name_changes",
+        "official_daily_life",
+        "xjtu_2018_oral_history"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "event-1955",
+      "date": "1955",
+      "dateLabel": "1955 年",
+      "title": "公园设想提出",
+      "text": "西安市政府决定在唐兴庆宫遗址建设兴庆公园，并与交通大学西迁后的新校园形成相邻关系。",
+      "sourceIds": [
+        "art_0034",
+        "official_2022_anniversary"
+      ]
+    },
+    {
+      "id": "event-1956",
+      "date": "1956",
+      "dateLabel": "1956 年",
+      "title": "兴庆池苗圃规划",
+      "text": "西安市建设局提出先建苗圃、后建公园的规划草案，名称为“兴庆池苗圃”。",
+      "sourceIds": [
+        "official_2022_anniversary",
+        "official_name_changes"
+      ]
+    },
+    {
+      "id": "event-1958-03",
+      "date": "1958-03",
+      "dateLabel": "1958 年春",
+      "title": "全民建园全面展开",
+      "text": "约 17 万人次参加挖湖、运土、修路和植树等义务劳动，约四个月初步建成。",
+      "sourceIds": [
+        "art_0034",
+        "official_2022_anniversary"
+      ]
+    },
+    {
+      "id": "event-1958-07-10",
+      "date": "1958-07-10",
+      "dateLabel": "1958 年 7 月 10 日",
+      "title": "兴庆公园开放",
+      "text": "“兴庆池苗圃”更名“兴庆公园”；参加劳动的群众和机关干部成为第一批游客。",
+      "sourceIds": [
+        "official_2022_anniversary",
+        "official_name_changes"
+      ]
+    },
+    {
+      "id": "event-1963-flower",
+      "date": "1963",
+      "dateLabel": "1963 年",
+      "title": "秋季菊花展开始",
+      "text": "此后每年秋季的花展逐渐成为西安市民游园的季节性活动。",
+      "sourceIds": [
+        "official_daily_life"
+      ]
+    },
+    {
+      "id": "event-1964",
+      "date": "1964",
+      "dateLabel": "1964 年",
+      "title": "母子大象滑梯建成",
+      "text": "一大一小两座钢筋水泥大象滑梯投入使用，成为几代儿童共同记忆。",
+      "sourceIds": [
+        "official_childhood_memory",
+        "art_0001",
+        "art_0005"
+      ]
+    },
+    {
+      "id": "event-1966",
+      "date": "1966",
+      "dateLabel": "1966 年",
+      "title": "改名“人民公园”",
+      "text": "公园名称在时代变化中改为“人民公园”。",
+      "sourceIds": [
+        "official_name_changes"
+      ]
+    },
+    {
+      "id": "event-1972",
+      "date": "1972",
+      "dateLabel": "1972 年",
+      "title": "恢复“兴庆公园”",
+      "text": "公园恢复 1958 年启用的“兴庆公园”名称。",
+      "sourceIds": [
+        "official_name_changes"
+      ]
+    },
+    {
+      "id": "event-1973",
+      "date": "1973",
+      "dateLabel": "1973 年",
+      "title": "游乐场初建",
+      "text": "公园游乐场最初建成，首个项目是电动转马。",
+      "sourceIds": [
+        "official_childhood_memory"
+      ]
+    },
+    {
+      "id": "event-1979",
+      "date": "1979",
+      "dateLabel": "1979 年",
+      "title": "定名“兴庆宫公园”",
+      "text": "公园定名“兴庆宫公园”，同年增建阿倍仲麻吕纪念碑及长庆轩。",
+      "sourceIds": [
+        "official_name_changes",
+        "art_0011",
+        "art_0100"
+      ]
+    },
+    {
+      "id": "event-1985",
+      "date": "1985",
+      "dateLabel": "1985 年",
+      "title": "电动小火车开通",
+      "text": "园内开通全市第一辆电动小火车。",
+      "sourceIds": [
+        "official_childhood_memory"
+      ]
+    },
+    {
+      "id": "event-1993",
+      "date": "1993",
+      "dateLabel": "1993 年",
+      "title": "春季花展开始",
+      "text": "郁金香、牡丹花展开始举办，春日赏花成为新的游园传统。",
+      "sourceIds": [
+        "official_daily_life"
+      ]
+    },
+    {
+      "id": "event-2000",
+      "date": "2000",
+      "dateLabel": "2000 年",
+      "title": "大丽花展开始",
+      "text": "大丽花加入秋季花事，与菊花共同构成公园秋日景观。",
+      "sourceIds": [
+        "official_daily_life"
+      ]
+    },
+    {
+      "id": "event-2020-12-25",
+      "date": "2020-12-25",
+      "dateLabel": "2020 年 12 月 25 日",
+      "title": "首次全面闭园改造",
+      "text": "建园 62 年后首次全面闭园，开展遗址展示、建筑修缮、水生态治理和公共服务更新。",
+      "sourceIds": [
+        "art_0084"
+      ]
+    },
+    {
+      "id": "event-2021-07-01",
+      "date": "2021-07-01",
+      "dateLabel": "2021 年 7 月 1 日",
+      "title": "重新免费开放",
+      "text": "半年提升改造后重新开放；原大象滑梯移至龙堂区域陈列，不再供游玩。",
+      "sourceIds": [
+        "art_0004",
+        "art_0002",
+        "art_0001"
+      ]
+    },
+    {
+      "id": "event-2023-national-day",
+      "date": "2023-09",
+      "dateLabel": "2023 年国庆节前夕",
+      "title": "新一代大象滑梯投入使用",
+      "text": "亲子游乐区按原样 1:1 制作一对新滑梯，1964 年原物继续陈列。",
+      "sourceIds": [
+        "art_0001",
+        "art_0005"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "art_0034",
+      "title": "【校史故事365】131 交大西迁与兴庆宫公园的建设",
+      "publisher": "西安交通大学新闻网",
+      "publicationDate": null,
+      "dateNote": "网页未提取到发布日期；文末注明节选自何卓烈《交大西迁与兴庆宫公园的建设》，原载于 2001 年出版的《交通大学西迁回忆录》。",
+      "authors": [
+        "何卓烈"
+      ],
+      "url": "http://news.xjtu.edu.cn/info/1033/11234.htm",
+      "usage": [
+        "1955 年规划背景",
+        "1958 年春动工",
+        "四个月初步建成",
+        "约 17 万人次义务劳动"
+      ],
+      "textUseNote": "用于事实核验和策展改写；网页图片可作为后续候选，使用时记录来源。"
+    },
+    {
+      "id": "art_0084",
+      "title": "兴庆宫公园62年来首次闭园改造",
+      "publisher": "人民网陕西频道",
+      "publicationDate": "2020-12-25",
+      "dateNote": null,
+      "authors": [
+        "李卫"
+      ],
+      "url": "http://sn.people.com.cn/n2/2021/0105/c378288-34510697.html",
+      "usage": [
+        "首次全面闭园改造的起止时间",
+        "提升改造范围"
+      ],
+      "textUseNote": "用于事实核验和策展改写；图片组可作为后续候选，使用时记录来源。"
+    },
+    {
+      "id": "art_0003",
+      "title": "兴庆宫公园改造最新进展来了！这些“童年记忆”都被保留……",
+      "publisher": "新浪移动端转载（原文署名政府网站）",
+      "publicationDate": "2021-03-07",
+      "dateNote": null,
+      "authors": [],
+      "url": "https://news.sina.cn/2021-03-07/detail-ikknscsh8847568.d.html?vt=4",
+      "usage": [
+        "改造中期进展",
+        "兴庆湖生态治理",
+        "郁金香花展作为保留项目"
+      ],
+      "textUseNote": "用于改造过程的补充核验；图片索引含重复与坏链接，后续使用前需按文件可用性筛选并记录来源。"
+    },
+    {
+      "id": "art_0004",
+      "title": "记者提前探访兴庆宫公园 服务升级以全新面貌开门迎客",
+      "publisher": "新浪陕西转载《三秦都市报》",
+      "publicationDate": "2021-07-01",
+      "dateNote": null,
+      "authors": [
+        "余明"
+      ],
+      "url": "https://sx.sina.cn/news/xian/2021-07-01/detail-ikqcfnca4277726.d.html",
+      "usage": [
+        "2021 年 7 月 1 日重新免费开放",
+        "公园格局与湖形保留",
+        "遗址保护、文化建筑修缮与公共服务更新"
+      ],
+      "textUseNote": "用于事实核验和策展改写；文章图片可作为后续候选，使用时记录来源。"
+    },
+    {
+      "id": "art_0002",
+      "title": "30秒看看改造后的西安兴庆宫公园什么样",
+      "publisher": "央广网",
+      "publicationDate": "2021-07-06",
+      "dateNote": null,
+      "authors": [
+        "刘昱"
+      ],
+      "url": "http://www.cnr.cn/sxpd/dqzs/20210706/t20210706_525528058.shtml",
+      "usage": [
+        "开园后回访",
+        "城市记忆展览馆",
+        "几代市民的公园记忆",
+        "原大象滑梯陈列"
+      ],
+      "textUseNote": "用于事实核验和策展改写；应按相关性排除站点装饰素材，相关图片可记录来源后使用。"
+    },
+    {
+      "id": "art_0001",
+      "title": "陕西：西安人的童年记忆回来啦！兴庆宫公园1：1复原大象滑梯",
+      "publisher": "西部网（陕西新闻网）",
+      "publicationDate": "2023-12-27",
+      "dateNote": null,
+      "authors": [
+        "惠璇璇",
+        "田家瑞（实习生）"
+      ],
+      "url": "http://m.cnwest.com/sxxw/a/2023/12/27/22195025.html",
+      "usage": [
+        "1964 年原滑梯建成",
+        "2021 年原物移至龙堂陈列",
+        "2023 年国庆节前夕按原样 1:1 制作新滑梯"
+      ],
+      "textUseNote": "大象滑梯章节首要事实来源。当前使用第一张新闻图派生版并保留媒体水印和完整来源；其余新闻图可在后续内容中按相关性选用。"
+    },
+    {
+      "id": "art_0005",
+      "title": "童年的“大象” 你还记得吗？兴庆宫公园大象滑梯重新投入使用",
+      "publisher": "西部网转载《西安晚报》",
+      "publicationDate": "2023-12-20",
+      "dateNote": null,
+      "authors": [
+        "谢伟"
+      ],
+      "url": "http://m.cnwest.com/sxxw/a/2023/12/20/22172375.html",
+      "usage": [
+        "大象滑梯始建年代的交叉验证",
+        "2023 年新滑梯投入使用的交叉验证"
+      ],
+      "textUseNote": "用于文本交叉核验；配图可在需要时记录来源后使用。"
+    },
+    {
+      "id": "art_0011",
+      "title": "兴庆宫公园导览·历史沿革",
+      "publisher": "兴庆宫公园官网",
+      "publicationDate": null,
+      "dateNote": "当前导览页未标示该段历史沿革的发布日期。",
+      "authors": [],
+      "url": "https://www.xingqinggong.com",
+      "usage": [
+        "1979 年增建阿倍仲麻吕纪念碑",
+        "纪念碑与公园历史沿革的关系"
+      ],
+      "textUseNote": "用于纪念碑落成年份的事实核验和策展改写；页面图片可作为后续候选，使用时记录来源。"
+    },
+    {
+      "id": "art_0100",
+      "title": "千年越え日中結ぶ縁 仲麻呂の功績 西安の碑に",
+      "publisher": "奈良国立博物館 ならはく教育普及室",
+      "publicationDate": "2025-02-12",
+      "dateNote": "页面注明原文刊载于《读卖新闻》奈良县版 2025 年 2 月 5 日朝刊。",
+      "authors": [
+        "張小娟"
+      ],
+      "url": "https://edu.narahaku.go.jp/post_note/80",
+      "usage": [
+        "纪念碑完成年份与所在位置",
+        "碑体材质、碑文及装饰细节",
+        "西安与奈良跨文化记忆的策展背景"
+      ],
+      "textUseNote": "用于事实核验和策展改写；配图可作为后续候选，使用时记录来源。"
+    },
+    {
+      "id": "official_2022_anniversary",
+      "title": "兴庆宫 64岁生日快乐",
+      "publisher": "兴庆宫公园官网",
+      "publicationDate": "2022-12-22",
+      "dateNote": null,
+      "authors": [],
+      "url": "https://www.xingqinggong.com/attract/activity/show/AEE108F3-6346-77CE-CA14-836B937315CE",
+      "usage": [
+        "1955—1958 年建园过程",
+        "17 万人次义务劳动与工程数量",
+        "1958 年 7 月 10 日开放及第一批游客"
+      ],
+      "textUseNote": "用于官方建园史事实核验和策展改写；正文历史图逐张保留页面图源，绘画与照片严格区分。"
+    },
+    {
+      "id": "official_childhood_memory",
+      "title": "童年记忆",
+      "publisher": "兴庆宫公园官网·城市记忆",
+      "publicationDate": null,
+      "dateNote": "当前城市记忆详情页未标示发布日期。",
+      "authors": [],
+      "url": "https://www.xingqinggong.com/attract/image/memory/show/985DE1B5-BACE-2F20-14C4-61212FB30F4D",
+      "usage": [
+        "1964 年母子大象滑梯",
+        "1973 年游乐场与电动转马",
+        "1985 年全市第一辆电动小火车"
+      ],
+      "textUseNote": "用于公园童年游乐设施沿革的事实核验和策展改写。"
+    },
+    {
+      "id": "official_name_changes",
+      "title": "名称变迁",
+      "publisher": "兴庆宫公园官网·城市记忆",
+      "publicationDate": null,
+      "dateNote": "当前城市记忆详情页未标示发布日期。",
+      "authors": [],
+      "url": "https://www.xingqinggong.com/attract/image/memory/show/A4882E71-16ED-D889-31EC-B8EC1C2EB88E",
+      "usage": [
+        "1956 年兴庆池苗圃规划名称",
+        "1958—1979 年公园名称变迁"
+      ],
+      "textUseNote": "用于名称时间线的事实核验和策展改写。"
+    },
+    {
+      "id": "official_daily_life",
+      "title": "怎样逛兴庆宫才算“正宗”？秘籍来咯！",
+      "publisher": "兴庆宫公园官网",
+      "publicationDate": "2023-02-02",
+      "dateNote": null,
+      "authors": [],
+      "url": "https://www.xingqinggong.com/attract/activity/show/7BD5D8E8-7297-2468-134B-BEF4626D085D",
+      "usage": [
+        "1963 年菊花展",
+        "1993 年郁金香与牡丹花展",
+        "2000 年大丽花展",
+        "当代市民社团与体育活动"
+      ],
+      "textUseNote": "用于公园季节性活动与当代公共生活的事实核验和策展改写。"
+    },
+    {
+      "id": "xjtu_2018_oral_history",
+      "title": "西安交大携手华商报社面向社会征集“西迁往事”",
+      "publisher": "西安交通大学新闻网转载《华商报》",
+      "publicationDate": "2018-02-03",
+      "dateNote": "页面转载《华商报》2018 年 2 月 2 日、3 日报道；龚俊杰内容刊于 2 月 3 日。",
+      "authors": [
+        "陈春平",
+        "孙可欣（实习生）"
+      ],
+      "url": "http://news.xjtu.edu.cn/info/1033/21070.htm",
+      "usage": [
+        "龚俊杰关于中学生参加挖湖劳动的口述记忆",
+        "公园与交大西迁的城市关联"
+      ],
+      "textUseNote": "作为 2018 年个人口述使用；其“1956 年”回忆不替代校史与公园官网所记 1958 年春全面建设时间。"
+    }
+  ],
+  "images": [
+    {
+      "id": "img-xingqing-lake-2019",
+      "sourceAssetId": "vintage_0120",
+      "path": "/images/memory-albums/xingqing-palace/v1/xingqing-lake-2019.webp",
+      "mimeType": "image/webp",
+      "width": 1024,
+      "height": 768,
+      "bytes": 135134,
+      "sha256": "9254f6ec63872475c0b6a6c6b354aafbf660dde181bd2fb6e5dc630aac1c26b2",
+      "dateLabel": "2019 年 6 月 16 日",
+      "alt": "2019 年的兴庆湖，湖面有游船，远处可见城市建筑",
+      "caption": "2019 年兴庆湖与游船。现代城市影像，不是建园初期旧照。",
+      "creator": "David Stanley",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xingqinggong_Park_(48796027613).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "attribution": "David Stanley，Xingqinggong Park (48796027613)，CC BY 2.0，via Wikimedia Commons。",
+      "changes": [
+        "保持原始 4:3 画面，不裁剪、不调色、不放大。",
+        "由 JPEG 转为 WebP（quality 82），移除嵌入元数据。"
+      ],
+      "source": {
+        "mimeType": "image/jpeg",
+        "width": 1024,
+        "height": 768,
+        "bytes": 201079,
+        "sha256": "4bea8044d02a6cb06f916cfdb740eae9cdf3bdaa96090674ce62823efec993be"
+      },
+      "safety": {
+        "reviewed": true,
+        "recognizableMinors": false,
+        "notes": "画面为远景城市公园场景，未见可识别未成年人。"
+      }
+    },
+    {
+      "id": "img-elephant-slide-original-display-2023",
+      "sourceAssetId": "art_0001_img_01",
+      "path": "/images/memory-albums/xingqing-palace/v1/elephant-slide-original-display-2023.webp",
+      "mimeType": "image/webp",
+      "width": 750,
+      "height": 422,
+      "bytes": 114546,
+      "sha256": "a70d27277a4555c9fd61769e9cd046e34f993a329710f56a626c0b3bd8b84cbc",
+      "dateLabel": "2023 年 12 月 26 日",
+      "alt": "龙堂区域陈列的一大一小两座原大象滑梯，照片保留陕西头条和西部网水印",
+      "caption": "2023 年拍摄的原大象滑梯陈列状态；1964 年原物已不再供游玩。",
+      "creator": "西部网（陕西新闻网）；来源页面未注明摄影者",
+      "sourceUrl": "http://m.cnwest.com/sxxw/a/2023/12/27/22195025.html",
+      "attribution": "西部网（陕西新闻网），来源页面未注明摄影者，2023-12-26；报道记者惠璇璇、实习生田家瑞。",
+      "changes": [
+        "保持原始 750×422 画面，不裁剪、不调色、不放大。",
+        "保留画面内“陕西头条 @ 西部网”水印。",
+        "由 PNG 转为 WebP（quality 82），移除嵌入元数据。"
+      ],
+      "source": {
+        "mimeType": "image/png",
+        "width": 750,
+        "height": 422,
+        "bytes": 725993,
+        "sha256": "1e4d4d1abf14a3651ba72f90552710437275ed55e0713d303db5dbcb0aa1b300"
+      },
+      "safety": {
+        "reviewed": true,
+        "recognizableMinors": false,
+        "notes": "选用无可识别儿童的原滑梯陈列图；未复制同组儿童游玩照片。"
+      }
+    },
+    {
+      "id": "img-abe-nakamaro-memorial-2015",
+      "sourceAssetId": "vintage_0119",
+      "path": "/images/memory-albums/xingqing-palace/v1/abe-nakamaro-memorial-2015.webp",
+      "mimeType": "image/webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 156020,
+      "sha256": "c51db85ce405c1dbe45fb67fb647de24d336e8b12a0cb7497116b545c70cb501",
+      "dateLabel": "2015 年 6 月 7 日",
+      "alt": "2015 年兴庆宫公园阿倍仲麻吕纪念碑，白色碑体立于树木之间",
+      "caption": "兴庆宫公园阿倍仲麻吕纪念碑，摄于 2015 年。现代记录影像，不是 1979 年落成时的照片。",
+      "creator": "Indiana jo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%98%BF%E5%80%8D%E4%BB%B2%E9%BA%BB%E5%91%82%E7%A2%91.JPG",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Indiana jo，阿倍仲麻呂碑.JPG，2015-06-07，CC BY-SA 4.0，via Wikimedia Commons。",
+      "changes": [
+        "保持原始 3:2 画面，不裁剪、不调色。",
+        "最长边由 2736 px 缩至 1600 px。",
+        "由 JPEG 转为 WebP（quality 82），移除嵌入元数据。"
+      ],
+      "source": {
+        "mimeType": "image/jpeg",
+        "width": 2736,
+        "height": 1824,
+        "bytes": 853330,
+        "sha256": "3afca161f7f2a5f1fffe45b15a7da92483a9ec86f967dcd093012a8c01a48488"
+      },
+      "safety": {
+        "reviewed": true,
+        "recognizableMinors": false,
+        "notes": "画面主体为纪念碑及周围绿化，未见可识别人物。"
+      }
+    },
+    {
+      "id": "img-chenxiang-pavilion-2010",
+      "sourceAssetId": "vintage_0095",
+      "path": "/images/memory-albums/xingqing-palace/v1/chenxiang-pavilion-2010.webp",
+      "mimeType": "image/webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 139046,
+      "sha256": "4e949b742794986311957389581a8de0a993c8bb63fd00fffd4acd3ddf907b23",
+      "dateLabel": "画面标注 2010 年 6 月 30 日",
+      "alt": "2010 年兴庆公园沉香亭，画面保留作者添加的黄色日期文字",
+      "caption": "沉香亭，画面标注 2010-06-30。现代城市影像。",
+      "creator": "wanghongliu",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:兴庆宫_沉香亭_Chen_Xiang_Ting_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "wanghongliu，兴庆宫 沉香亭 Chen Xiang Ting - panoramio，CC BY-SA 3.0，via Wikimedia Commons。",
+      "changes": [
+        "保持原始 3:2 画面，不裁剪、不调色；保留作者添加的黄色日期文字。",
+        "最长边由 2400 px 缩至 1600 px。",
+        "由 JPEG 转为 WebP（quality 82），移除嵌入元数据。"
+      ],
+      "source": {
+        "mimeType": "image/jpeg",
+        "width": 2400,
+        "height": 1600,
+        "bytes": 431125,
+        "sha256": "30813210bdd46f1564405698b2bdd3ac1451986dc095b30c2178a03ec2add95d"
+      },
+      "safety": {
+        "reviewed": true,
+        "recognizableMinors": false,
+        "notes": "画面主体为建筑与园景，未见可识别未成年人。"
+      }
+    },
+    {
+      "id": "img-east-gate-2010",
+      "sourceAssetId": "vintage_0093",
+      "path": "/images/memory-albums/xingqing-palace/v1/east-gate-2010.webp",
+      "mimeType": "image/webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 151956,
+      "sha256": "ea164068de2e646d415c41bc9fbd08455e95a9a4a10b4f3052c5f1b869a08441",
+      "dateLabel": "画面标注 2010 年 6 月 30 日",
+      "alt": "2010 年兴庆公园东门，画面保留黄色日期文字和入口横幅",
+      "caption": "兴庆公园东门，画面标注 2010-06-30。画面中的日期文字与横幅均保留。",
+      "creator": "wanghongliu",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:兴庆宫公园东门_the_east_gate_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "wanghongliu，兴庆宫公园东门 the east gate - panoramio，CC BY-SA 3.0，via Wikimedia Commons。",
+      "changes": [
+        "保持原始 3:2 画面，不裁剪、不调色；保留作者添加的日期文字和画面中的横幅。",
+        "最长边由 2400 px 缩至 1600 px。",
+        "由 JPEG 转为 WebP（quality 82），移除嵌入元数据。"
+      ],
+      "source": {
+        "mimeType": "image/jpeg",
+        "width": 2400,
+        "height": 1600,
+        "bytes": 340989,
+        "sha256": "99742e941a5c24d5ad4cf633959be216c532fdd7b8468b274b9f9db2858a18de"
+      },
+      "safety": {
+        "reviewed": true,
+        "recognizableMinors": false,
+        "notes": "画面主体为公园入口，未见可识别未成年人。"
+      }
+    },
+    {
+      "id": "img-south-gate-2022",
+      "sourceAssetId": "vintage_0121",
+      "path": "/images/memory-albums/xingqing-palace/v1/south-gate-2022.webp",
+      "mimeType": "image/webp",
+      "width": 1600,
+      "height": 1200,
+      "bytes": 314072,
+      "sha256": "40bfd52ac9378145e51eeef2df8f8c85a5846bba04ac5be0d95eb4f40c85063b",
+      "dateLabel": "2022 年 9 月 27 日",
+      "alt": "2022 年兴庆宫公园南门及门前广场",
+      "caption": "2022 年的兴庆宫公园南门，用于呈现改造后的公园入口。",
+      "creator": "Liuxingy",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:碑林_兴庆宫南门.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Liuxingy，碑林 兴庆宫南门，CC BY-SA 4.0，via Wikimedia Commons。",
+      "changes": [
+        "按 EXIF 方向校正后保持完整画面，不裁剪、不调色。",
+        "最长边由 6016 px 缩至 1600 px。",
+        "由 JPEG 转为 WebP（quality 82），移除嵌入元数据。"
+      ],
+      "source": {
+        "mimeType": "image/jpeg",
+        "width": 6016,
+        "height": 4512,
+        "bytes": 8421366,
+        "sha256": "be40616f0560edcca6008f85616466aa3e9196cc074e5f47ad886ffdba7d82ac"
+      },
+      "safety": {
+        "reviewed": true,
+        "recognizableMinors": false,
+        "notes": "画面为远景入口及广场，未见可识别未成年人。"
+      }
+    },
+    {
+      "id": "img-elephant-slide-new-pair-2023",
+      "sourceAssetId": "art_0001_img_02",
+      "path": "/images/memory-albums/xingqing-palace/v1/elephant-slide-new-pair-2023.webp",
+      "mimeType": "image/webp",
+      "width": 750,
+      "height": 422,
+      "bytes": 87166,
+      "sha256": "015a7df5106a4e0e3befb4de23dd2b2c6e7b23cc3265ae9cc1c6216369e1f261",
+      "dateLabel": "2023 年 12 月 26 日",
+      "alt": "2023 年兴庆宫公园亲子游乐区内一大一小两座新制大象滑梯",
+      "caption": "2023 年按原样 1:1 新制的一对大象滑梯；这是供游玩的复原品，不是 1964 年原物。",
+      "creator": "西部网（陕西新闻网）；来源页面未注明摄影者",
+      "sourceUrl": "http://m.cnwest.com/sxxw/a/2023/12/27/22195025.html",
+      "attribution": "西部网（陕西新闻网），来源页面未注明摄影者，2023-12-26；报道记者惠璇璇、实习生田家瑞。",
+      "changes": [
+        "保持完整画面，不裁剪、不调色；保留画面内已有文字与水印。",
+        "最长边超过 1600 px 时等比缩至 1600 px，不放大较小图片。",
+        "转为 WebP（quality 82），移除嵌入元数据。"
+      ],
+      "source": {
+        "mimeType": "image/png",
+        "width": 750,
+        "height": 422,
+        "bytes": 614972,
+        "sha256": "62a8c5c36113ccd800e053a4525b86778b115514e3663f1043c938010871e595"
+      },
+      "safety": {
+        "reviewed": true,
+        "recognizableMinors": false,
+        "notes": "画面主体为新制滑梯及游乐区，未见可识别未成年人。"
+      }
+    },
+    {
+      "id": "img-elephant-slide-memory-exhibition-2023",
+      "sourceAssetId": "art_0001_img_03",
+      "path": "/images/memory-albums/xingqing-palace/v1/elephant-slide-memory-exhibition-2023.webp",
+      "mimeType": "image/webp",
+      "width": 750,
+      "height": 422,
+      "bytes": 51906,
+      "sha256": "e673998fe570802f2e1782fece4ebfdebca856365838db3c42100b4ef7cafb63",
+      "dateLabel": "2023 年 12 月 26 日",
+      "alt": "兴庆宫公园城市记忆展览馆内陈列的大象滑梯历史照片墙",
+      "caption": "城市记忆展览馆中的大象滑梯照片墙，记录市民与滑梯相伴的旧日片段。",
+      "creator": "西部网（陕西新闻网）；来源页面未注明摄影者",
+      "sourceUrl": "http://m.cnwest.com/sxxw/a/2023/12/27/22195025.html",
+      "attribution": "西部网（陕西新闻网），来源页面未注明摄影者，2023-12-26；报道记者惠璇璇、实习生田家瑞。",
+      "changes": [
+        "保持完整画面，不裁剪、不调色；保留画面内已有文字与水印。",
+        "最长边超过 1600 px 时等比缩至 1600 px，不放大较小图片。",
+        "转为 WebP（quality 82），移除嵌入元数据。"
+      ],
+      "source": {
+        "mimeType": "image/png",
+        "width": 750,
+        "height": 422,
+        "bytes": 492390,
+        "sha256": "4909951b287451e177dd02aa2adeee26e11d623ce661588de787c66890beed4c"
+      },
+      "safety": {
+        "reviewed": true,
+        "recognizableMinors": true,
+        "notes": "画面拍摄展览馆照片墙，墙上历史照片含人物；已按完整展陈场景审阅。"
+      }
+    },
+    {
+      "id": "img-elephant-slide-new-generation-2023",
+      "sourceAssetId": "art_0001_img_04",
+      "path": "/images/memory-albums/xingqing-palace/v1/elephant-slide-new-generation-2023.webp",
+      "mimeType": "image/webp",
+      "width": 750,
+      "height": 422,
+      "bytes": 88152,
+      "sha256": "c4fe23f13bec6073ee740d26ba87a8ba971dd85c8f6220446a91c116fbb7ccaa",
+      "dateLabel": "2023 年 12 月 26 日",
+      "alt": "孩子们在兴庆宫公园新一代大象滑梯旁游玩",
+      "caption": "孩子们正在使用新一代大象滑梯，呈现城市记忆如何由复原设施延续到下一代。",
+      "creator": "西部网（陕西新闻网）；来源页面未注明摄影者",
+      "sourceUrl": "http://m.cnwest.com/sxxw/a/2023/12/27/22195025.html",
+      "attribution": "西部网（陕西新闻网），来源页面未注明摄影者，2023-12-26；报道记者惠璇璇、实习生田家瑞。",
+      "changes": [
+        "保持完整画面，不裁剪、不调色；保留画面内已有文字与水印。",
+        "最长边超过 1600 px 时等比缩至 1600 px，不放大较小图片。",
+        "转为 WebP（quality 82），移除嵌入元数据。"
+      ],
+      "source": {
+        "mimeType": "image/png",
+        "width": 750,
+        "height": 422,
+        "bytes": 627861,
+        "sha256": "6532d42d351a32c338dcff47245576f9ec214bc7a99915715a63fe02e9d5bdf2"
+      },
+      "safety": {
+        "reviewed": true,
+        "recognizableMinors": true,
+        "notes": "新闻现场图含正在游玩的儿童；已按完整画面审阅并保留媒体水印。"
+      }
+    },
+    {
+      "id": "img-renewal-construction-pavilion-2021",
+      "sourceAssetId": "art_0003_img_03",
+      "path": "/images/memory-albums/xingqing-palace/v1/renewal-construction-pavilion-2021.webp",
+      "mimeType": "image/webp",
+      "width": 700,
+      "height": 467,
+      "bytes": 99834,
+      "sha256": "06eca2719f2fd6a7bb558cb94481237702c7cf20fed53c26779d779a36a99c55",
+      "dateLabel": "2021 年 3 月（报道发布）",
+      "alt": "兴庆宫公园整修期间建筑周边的施工现场",
+      "caption": "2021 年春整修中的园内建筑与施工区域，记录闭园改造的中期状态。",
+      "creator": "政府网站供图；新浪移动端转载页面未注明摄影者",
+      "sourceUrl": "https://news.sina.cn/2021-03-07/detail-ikknscsh8847568.d.html?vt=4",
+      "attribution": "政府网站供图，新浪移动端转载《兴庆宫公园改造最新进展来了！这些“童年记忆”都被保留……》，2021-03-07。",
+      "changes": [
+        "保持完整画面，不裁剪、不调色；保留画面内已有文字与水印。",
+        "最长边超过 1600 px 时等比缩至 1600 px，不放大较小图片。",
+        "转为 WebP（quality 82），移除嵌入元数据。"
+      ],
+      "source": {
+        "mimeType": "image/jpeg",
+        "width": 700,
+        "height": 467,
+        "bytes": 416916,
+        "sha256": "b45fe8d707b2ff4cd7044d33381ecdd792414501a08da22329c37cb3ba3c7469"
+      },
+      "safety": {
+        "reviewed": true,
+        "recognizableMinors": false,
+        "notes": "画面主体为园内建筑和施工区域，人物距离较远。"
+      }
+    },
+    {
+      "id": "img-renewal-lakeside-works-2021",
+      "sourceAssetId": "art_0003_img_04",
+      "path": "/images/memory-albums/xingqing-palace/v1/renewal-lakeside-works-2021.webp",
+      "mimeType": "image/webp",
+      "width": 700,
+      "height": 453,
+      "bytes": 89660,
+      "sha256": "4915ff54e497b3e6483b867c4f25fe3ff101cd75c8cb3fc9a74d50d81e9f274f",
+      "dateLabel": "2021 年 3 月（报道发布）",
+      "alt": "兴庆宫公园整修期间湖岸及园路施工现场",
+      "caption": "闭园整修期间的湖岸与园路施工现场，呈现更新中的公共空间。",
+      "creator": "政府网站供图；新浪移动端转载页面未注明摄影者",
+      "sourceUrl": "https://news.sina.cn/2021-03-07/detail-ikknscsh8847568.d.html?vt=4",
+      "attribution": "政府网站供图，新浪移动端转载《兴庆宫公园改造最新进展来了！这些“童年记忆”都被保留……》，2021-03-07。",
+      "changes": [
+        "保持完整画面，不裁剪、不调色；保留画面内已有文字与水印。",
+        "最长边超过 1600 px 时等比缩至 1600 px，不放大较小图片。",
+        "转为 WebP（quality 82），移除嵌入元数据。"
+      ],
+      "source": {
+        "mimeType": "image/jpeg",
+        "width": 700,
+        "height": 453,
+        "bytes": 396771,
+        "sha256": "9ff34270e64ca16ec6482b095b0c79a240f16cbcd51be1b5cfc3c0818a86fb4a"
+      },
+      "safety": {
+        "reviewed": true,
+        "recognizableMinors": false,
+        "notes": "画面主体为施工场地，未见可识别未成年人。"
+      }
+    },
+    {
+      "id": "img-renewal-lake-ecology-2021",
+      "sourceAssetId": "art_0003_img_05",
+      "path": "/images/memory-albums/xingqing-palace/v1/renewal-lake-ecology-2021.webp",
+      "mimeType": "image/webp",
+      "width": 700,
+      "height": 467,
+      "bytes": 78384,
+      "sha256": "2e51901e218fb540039b6fd7655f49dc28df9325ad83f0ca7679a19ce3e794b3",
+      "dateLabel": "2021 年 3 月（报道发布）",
+      "alt": "兴庆湖整修与水生态治理施工现场",
+      "caption": "兴庆湖整修与水生态治理现场；报道提及驳岸整修、湖底淤泥消解与后续注水。",
+      "creator": "政府网站供图；新浪移动端转载页面未注明摄影者",
+      "sourceUrl": "https://news.sina.cn/2021-03-07/detail-ikknscsh8847568.d.html?vt=4",
+      "attribution": "政府网站供图，新浪移动端转载《兴庆宫公园改造最新进展来了！这些“童年记忆”都被保留……》，2021-03-07。",
+      "changes": [
+        "保持完整画面，不裁剪、不调色；保留画面内已有文字与水印。",
+        "最长边超过 1600 px 时等比缩至 1600 px，不放大较小图片。",
+        "转为 WebP（quality 82），移除嵌入元数据。"
+      ],
+      "source": {
+        "mimeType": "image/jpeg",
+        "width": 700,
+        "height": 467,
+        "bytes": 401410,
+        "sha256": "f78975baf8f83a1c585730e35af9591e8152eb706ed05c41741e7d5485cbf5f8"
+      },
+      "safety": {
+        "reviewed": true,
+        "recognizableMinors": false,
+        "notes": "画面主体为湖区施工，未见可识别未成年人。"
+      }
+    },
+    {
+      "id": "img-renewal-site-machinery-2021",
+      "sourceAssetId": "art_0003_img_06",
+      "path": "/images/memory-albums/xingqing-palace/v1/renewal-site-machinery-2021.webp",
+      "mimeType": "image/webp",
+      "width": 700,
+      "height": 467,
+      "bytes": 83250,
+      "sha256": "f54fd4dfa88897e2312e421e86d4e54cde92f68744dd8946a9130dabcfbb2be0",
+      "dateLabel": "2021 年 3 月（报道发布）",
+      "alt": "兴庆宫公园整修期间机器与工人作业的现场",
+      "caption": "整修期间的机器与作业现场，补充记录公园全面闭园改造的过程。",
+      "creator": "政府网站供图；新浪移动端转载页面未注明摄影者",
+      "sourceUrl": "https://news.sina.cn/2021-03-07/detail-ikknscsh8847568.d.html?vt=4",
+      "attribution": "政府网站供图，新浪移动端转载《兴庆宫公园改造最新进展来了！这些“童年记忆”都被保留……》，2021-03-07。",
+      "changes": [
+        "保持完整画面，不裁剪、不调色；保留画面内已有文字与水印。",
+        "最长边超过 1600 px 时等比缩至 1600 px，不放大较小图片。",
+        "转为 WebP（quality 82），移除嵌入元数据。"
+      ],
+      "source": {
+        "mimeType": "image/jpeg",
+        "width": 700,
+        "height": 467,
+        "bytes": 422593,
+        "sha256": "cfaef10975aa96a49d158ba1d61e7fd479c705deb1db9afe271c204499f3578b"
+      },
+      "safety": {
+        "reviewed": true,
+        "recognizableMinors": false,
+        "notes": "画面主体为施工机械与作业人员，未见可识别未成年人。"
+      }
+    },
+    {
+      "id": "img-renewal-reopening-scene-2021",
+      "sourceAssetId": "art_0004_img_02",
+      "path": "/images/memory-albums/xingqing-palace/v1/renewal-reopening-scene-2021.webp",
+      "mimeType": "image/webp",
+      "width": 700,
+      "height": 350,
+      "bytes": 54754,
+      "sha256": "7620f4bd187d6fe57ad472527aa7f488f99ebdf46b9471c0aed74a975bd3d732",
+      "dateLabel": "2021 年 7 月 1 日（报道发布）",
+      "alt": "兴庆宫公园重新开放报道中的园内建筑与景观",
+      "caption": "2021 年重新免费开放报道中的园内景观，用于呈现半年改造后的公园面貌。",
+      "creator": "余明，《三秦都市报》",
+      "sourceUrl": "https://sx.sina.cn/news/xian/2021-07-01/detail-ikqcfnca4277726.d.html",
+      "attribution": "余明，文/图，《三秦都市报》；新浪陕西转载《记者提前探访兴庆宫公园 服务升级以全新面貌开门迎客》，2021-07-01。",
+      "changes": [
+        "保持完整画面，不裁剪、不调色；保留画面内已有文字与水印。",
+        "最长边超过 1600 px 时等比缩至 1600 px，不放大较小图片。",
+        "转为 WebP（quality 82），移除嵌入元数据。"
+      ],
+      "source": {
+        "mimeType": "image/jpeg",
+        "width": 700,
+        "height": 350,
+        "bytes": 269115,
+        "sha256": "becf92e5d66fd0aa0ecf995f72b0152c59f3d67e37906c24e017912ec3cf225f"
+      },
+      "safety": {
+        "reviewed": true,
+        "recognizableMinors": false,
+        "notes": "画面主体为园内建筑与景观，未见可识别未成年人。"
+      }
+    },
+    {
+      "id": "img-abe-nakamaro-memorial-2012",
+      "sourceAssetId": "vintage_0117",
+      "path": "/images/memory-albums/xingqing-palace/v1/abe-nakamaro-memorial-2012.webp",
+      "mimeType": "image/webp",
+      "width": 1200,
+      "height": 1600,
+      "bytes": 243066,
+      "sha256": "7711d1a7d8f5d1c4f8a474e93aaac2e7214fa5fa7b59b2a76607b0641201c8f0",
+      "dateLabel": "2012 年 10 月 30 日",
+      "alt": "2012 年兴庆宫公园内阿倍仲麻吕纪念碑全景",
+      "caption": "2012 年的阿倍仲麻吕纪念碑全景，可见碑体、基座和周边环境。",
+      "creator": "Danielinblue",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abeijinianbei.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "Danielinblue，Abeijinianbei.jpg，2012-10-30，CC BY-SA 3.0，via Wikimedia Commons。",
+      "changes": [
+        "保持完整画面，不裁剪、不调色；保留画面内已有文字与水印。",
+        "最长边超过 1600 px 时等比缩至 1600 px，不放大较小图片。",
+        "转为 WebP（quality 82），移除嵌入元数据。"
+      ],
+      "source": {
+        "mimeType": "image/jpeg",
+        "width": 1944,
+        "height": 2592,
+        "bytes": 843206,
+        "sha256": "66abbc35667050b4e9ee82e9efed2c83cfecdfc6240422f682018bc3a5a84483"
+      },
+      "safety": {
+        "reviewed": true,
+        "recognizableMinors": false,
+        "notes": "画面主体为纪念碑全景，未见可识别未成年人。"
+      }
+    },
+    {
+      "id": "img-abe-nakamaro-memorial-2010",
+      "sourceAssetId": "vintage_0146",
+      "path": "/images/memory-albums/xingqing-palace/v1/abe-nakamaro-memorial-2010.webp",
+      "mimeType": "image/webp",
+      "width": 1600,
+      "height": 1108,
+      "bytes": 216530,
+      "sha256": "76dcb52d43f89a9dcba908655bcf2a9629812443fced40a93bc116d704dc0be2",
+      "dateLabel": "画面标注 2010 年 6 月 30 日",
+      "alt": "2010 年阿倍仲麻吕纪念碑碑体与基座近景，画面保留黄色日期文字",
+      "caption": "阿倍仲麻吕纪念碑近景，画面标注 2010-06-30，可辨认碑体和基座雕刻。",
+      "creator": "wanghongliu",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:阿倍仲麻呂，あべ_の_なかまろ，A-bei_zhong-ma-lv_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "wanghongliu，阿倍仲麻呂，あべ の なかまろ，A-bei zhong-ma-lv - panoramio，CC BY-SA 3.0，via Wikimedia Commons。",
+      "changes": [
+        "保持完整画面，不裁剪、不调色；保留画面内已有文字与水印。",
+        "最长边超过 1600 px 时等比缩至 1600 px，不放大较小图片。",
+        "转为 WebP（quality 82），移除嵌入元数据。"
+      ],
+      "source": {
+        "mimeType": "image/jpeg",
+        "width": 2200,
+        "height": 1523,
+        "bytes": 403265,
+        "sha256": "cd87b603eebdb4a65e0014f256d28a0a720ac7e7e10fe1159a7363681b535ed8"
+      },
+      "safety": {
+        "reviewed": true,
+        "recognizableMinors": false,
+        "notes": "画面主体为纪念碑及基座，未见可识别未成年人。"
+      }
+    },
+    {
+      "id": "img-building-labor-artwork-1958",
+      "sourceAssetId": "official-build-artwork",
+      "path": "/images/memory-albums/xingqing-palace/v1/building-labor-artwork-1958.webp",
+      "mimeType": "image/webp",
+      "width": 1080,
+      "height": 689,
+      "bytes": 189120,
+      "sha256": "eb7e39d8f1db05de0036dec79573ce5e3de0a72dca050f03ad75fde4b0545c19",
+      "dateLabel": "表现 1958 年建园劳动",
+      "alt": "表现兴庆公园集体建园劳动的历史题材绘画，画面中人们挥锹、挖土并用竹筐运土",
+      "caption": "王雁《西迁精神——兴庆公园建设1958》中的建园题材作品；这是后来的艺术表现，不是 1958 年现场照片。",
+      "creator": "王雁（兴庆宫公园官网图源标注）",
+      "sourceUrl": "https://www.xingqinggong.com/attract/activity/show/AEE108F3-6346-77CE-CA14-836B937315CE",
+      "attribution": "兴庆宫公园官网《兴庆宫 64岁生日快乐》收录，图源标注《西迁精神——兴庆公园建设1958》王雁。",
+      "changes": [
+        "保持原始 1080×689 完整画面，不裁剪、不调色、不放大。",
+        "由实际编码为 JPEG 的官网文件转为 WebP（quality 82），移除嵌入元数据。"
+      ],
+      "source": {
+        "mimeType": "image/jpeg",
+        "width": 1080,
+        "height": 689,
+        "bytes": 207507,
+        "sha256": "89b5ec31a53514383d0f6fe165c4f8fe0cdf7d1ecd9a8a2131d1c3e1889fc682"
+      },
+      "safety": {
+        "reviewed": true,
+        "recognizableMinors": false,
+        "notes": "历史题材绘画，人物不可识别；已确认不将其表述为现场照片。"
+      }
+    },
+    {
+      "id": "img-building-volunteer-labor-1958",
+      "sourceAssetId": "official-build-02",
+      "path": "/images/memory-albums/xingqing-palace/v1/building-volunteer-labor-1958.webp",
+      "mimeType": "image/webp",
+      "width": 496,
+      "height": 364,
+      "bytes": 51440,
+      "sha256": "f94d1a70772344e5215ed434f5b0854cc484e84b296c6b97165ca11f6d6faf81",
+      "dateLabel": "1958 年建园时期",
+      "alt": "兴庆公园建设现场的黑白照片，开阔工地上有大量参加义务劳动的人群",
+      "caption": "“参加修建兴庆公园义务劳动的人们热烈劳动的情形”，原图题注署名王安英摄。",
+      "creator": "王安英；王雁《西迁精神——兴庆公园建设1958》收录",
+      "sourceUrl": "https://www.xingqinggong.com/attract/activity/show/AEE108F3-6346-77CE-CA14-836B937315CE",
+      "attribution": "王安英摄；兴庆宫公园官网《兴庆宫 64岁生日快乐》收录，页面图源标注《西迁精神——兴庆公园建设1958》王雁。",
+      "changes": [
+        "保持含原始中文题注的 496×364 完整画面，不裁剪、不调色、不放大。",
+        "由实际编码为 JPEG 的官网文件转为 WebP（quality 82），移除嵌入元数据。"
+      ],
+      "source": {
+        "mimeType": "image/jpeg",
+        "width": 496,
+        "height": 364,
+        "bytes": 55825,
+        "sha256": "215106f70932c7047beac9f60fe4ad62b6b95114348fe50e35fd558bfb7aa7fd"
+      },
+      "safety": {
+        "reviewed": true,
+        "recognizableMinors": false,
+        "notes": "远景集体劳动照片，人物面部不可识别；保留原题注与摄影署名。"
+      }
+    },
+    {
+      "id": "img-building-newspaper-labor-1958",
+      "sourceAssetId": "official-build-03",
+      "path": "/images/memory-albums/xingqing-palace/v1/building-newspaper-labor-1958.webp",
+      "mimeType": "image/webp",
+      "width": 1080,
+      "height": 809,
+      "bytes": 243926,
+      "sha256": "3217d0491c4f2f33293895267d5ad5dfe4ff0b82cbab7b6c445f4530dc164995",
+      "dateLabel": "1958 年建园时期（报刊资料）",
+      "alt": "报刊版面中的兴庆公园建设劳动照片，多名劳动者在土坡上挖土和搬运",
+      "caption": "报刊保存的兴庆公园挖土劳动场景；来源页未标明报刊名称、刊期与摄影者。",
+      "creator": "原始摄影者未标明；王雁《西迁精神——兴庆公园建设1958》收录",
+      "sourceUrl": "https://www.xingqinggong.com/attract/activity/show/AEE108F3-6346-77CE-CA14-836B937315CE",
+      "attribution": "兴庆宫公园官网《兴庆宫 64岁生日快乐》收录，页面图源标注《西迁精神——兴庆公园建设1958》王雁；原始报刊与摄影者未标明。",
+      "changes": [
+        "保持含报刊版面的 1080×809 完整画面，不裁剪、不调色、不放大。",
+        "由实际编码为 JPEG 的官网文件转为 WebP（quality 82），移除嵌入元数据。"
+      ],
+      "source": {
+        "mimeType": "image/jpeg",
+        "width": 1080,
+        "height": 809,
+        "bytes": 233802,
+        "sha256": "88341d0325ef1b4f5c8df478930f4da08770538eedc901890dacbb9dd81651e0"
+      },
+      "safety": {
+        "reviewed": true,
+        "recognizableMinors": false,
+        "notes": "低清晰度报刊劳动场景，人物面部不可识别；不补写来源页未提供的报刊或摄影信息。"
+      }
+    },
+    {
+      "id": "img-xingqing-lake-early-undated",
+      "sourceAssetId": "official-build-04",
+      "path": "/images/memory-albums/xingqing-palace/v1/xingqing-lake-early-undated.webp",
+      "mimeType": "image/webp",
+      "width": 1080,
+      "height": 710,
+      "bytes": 102038,
+      "sha256": "ccdbe6e47aada2e421ee2a97027c3b6c16edee4e82560000a52729bc2626d7a0",
+      "dateLabel": "早期公园影像，具体日期未标明",
+      "alt": "兴庆湖早期黑白影像，湖面上分布许多游船，岸边可见传统园林建筑和游人",
+      "caption": "早期兴庆湖的游船与游园场景；来源页未标明具体拍摄日期和摄影者。",
+      "creator": "原始摄影者未标明；王雁《西迁精神——兴庆公园建设1958》收录",
+      "sourceUrl": "https://www.xingqinggong.com/attract/activity/show/AEE108F3-6346-77CE-CA14-836B937315CE",
+      "attribution": "兴庆宫公园官网《兴庆宫 64岁生日快乐》收录，页面图源标注《西迁精神——兴庆公园建设1958》王雁；具体日期与摄影者未标明。",
+      "changes": [
+        "保持原始 1080×710 完整画面，不裁剪、不调色、不放大。",
+        "由实际编码为 JPEG 的官网文件转为 WebP（quality 82），移除嵌入元数据。"
+      ],
+      "source": {
+        "mimeType": "image/jpeg",
+        "width": 1080,
+        "height": 710,
+        "bytes": 137358,
+        "sha256": "bd4905f77c1bfab5d2f40398631c21299dbcf43273d5cba3c851217e2dac1ee2"
+      },
+      "safety": {
+        "reviewed": true,
+        "recognizableMinors": false,
+        "notes": "湖面与游人远景，人物不可识别；日期不明，未将其标注为开园当天照片。"
+      }
+    }
+  ]
+}

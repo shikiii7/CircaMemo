@@ -1,0 +1,335 @@
+{
+  "version": 1,
+  "heritage": {
+    "pid": "P246",
+    "heritageName": "南墙遗址（曲江两处）",
+    "displayTitle": "周边公众记忆：曲江池遗址公园",
+    "sourceSite": "曲江池遗址公园",
+    "relationLabel": "周边公众记忆",
+    "relationNote": "P246 与曲江池公众记忆通过曲江片区及遗址公园的空间衔接相关联，但二者不是同一遗产实体，评论仅作周边公众记忆。"
+  },
+  "disclaimer": "以下为不同公开平台的独立摘录，经脱敏、节选与主题整理；并非真实群聊，消息之间不代表回复关系，公众观点不代表本站立场。",
+  "facts": [
+    {
+      "id": "national-protection-context",
+      "text": "相关南城墙遗存属于国保“隋大兴、唐长安城遗址”的组成部分。",
+      "sourceIds": [
+        "xian-national-heritage-list"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "formal-object-name",
+      "text": "地方志将相关对象列为“唐长安城外郭城南城墙东段遗址”。",
+      "sourceIds": [
+        "xian-local-chronicle-city-site"
+      ],
+      "confidence": "single_source"
+    },
+    {
+      "id": "city-foundation",
+      "text": "隋开皇二年（582）始建大兴城，唐代沿用并完善为长安城。",
+      "sourceIds": [
+        "xian-local-chronicle-city-site"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "park-on-city-wall",
+      "text": "唐城墙遗址公园建于外郭城遗址上，东至曲江新区环湖路。",
+      "sourceIds": [
+        "qujiang-tang-wall-park"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "modern-city-overlay",
+      "text": "唐长安城多数遗迹叠压于现代城市下，地面仅存少量城墙遗存。",
+      "sourceIds": [
+        "xian-local-chronicle-city-site"
+      ],
+      "confidence": "single_source"
+    }
+  ],
+  "sources": [
+    {
+      "id": "xian-national-heritage-list",
+      "title": "西安市国家重点文物保护单位（58处）",
+      "url": "http://wwj.xa.gov.cn/xxgk/wbxx/5fbb551ff8fd1c59664b3711.html",
+      "tier": "A",
+      "publisher": "西安市文物局"
+    },
+    {
+      "id": "xian-local-chronicle-city-site",
+      "title": "隋大兴城、唐长安城遗址",
+      "url": "http://xadfz.xa.gov.cn/xadq/rwxa/1960625284585664514.html",
+      "tier": "A",
+      "publisher": "西安市地方志办公室"
+    },
+    {
+      "id": "qujiang-tang-wall-park",
+      "title": "唐城墙遗址公园",
+      "url": "http://qjxq.xa.gov.cn/zjqj/gyqj/tsqj/5df21c3565cbd81235fc1b71.html",
+      "tier": "A",
+      "publisher": "西安曲江新区管理委员会"
+    }
+  ],
+  "sections": [
+    {
+      "id": "landscape-leisure",
+      "title": "湖风、夜色与一座街边公园",
+      "intro": "曲江池的吸引力来自湖岸、古今建筑和随时可以走进去的日常感。",
+      "items": [
+        {
+          "type": "message",
+          "id": "71f9a5a9733d4232",
+          "user": "奶泡儿",
+          "avatarSeed": "83d10808",
+          "excerpt": "曲江池遗址公园的夜景像暖色电影。落日之后，灯光亮起，湖面和城市天际线慢慢变得通透。",
+          "publishedAt": "2021-12-07",
+          "source": "xiaohongshu",
+          "likes": 107,
+          "topic": "landscape-leisure",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        },
+        {
+          "type": "message",
+          "id": "fa3d5efa3e2be1e5",
+          "user": "背包客",
+          "avatarSeed": "980c9e11",
+          "excerpt": "微风轻拂、水波荡漾、绿树成荫。坐在湖边看金鱼和湖鸭，春日的公园让人放松下来。",
+          "publishedAt": "2023-05-02",
+          "source": "xiaohongshu",
+          "likes": 121,
+          "topic": "landscape-leisure",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        },
+        {
+          "type": "message",
+          "id": "78b61d6ea8b57648",
+          "user": "地图边缘",
+          "avatarSeed": "243ae182",
+          "excerpt": "这里免费、相对清净，也能同时看到古风楼阁和现代建筑。走到没有天花板的地方，人也会变得通透。",
+          "publishedAt": "2023-08-12",
+          "source": "xiaohongshu",
+          "likes": 281,
+          "topic": "landscape-leisure",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        },
+        {
+          "type": "message",
+          "id": "339e255950578057",
+          "user": "早市买菜",
+          "avatarSeed": "e2db8daa",
+          "excerpt": "曲江池我真的真的真的很漂亮，既有西安特色，盛唐美景，又是生态园林，休闲圣地。 公园里有湖有景，有白鹅有锦鲤，还有历史遗留下来的文物就在公园的小路边展示，走着走着就能看到明清的石狮，形态各异，憨态可掬。 到西安很多次了，每次西安游客实在实在太多太多了，好多游客来西安都没有美好的体验，所以还是分享给大家这个地方，玩得开心!…",
+          "publishedAt": "2024-05-15",
+          "source": "xiaohongshu",
+          "likes": 116,
+          "topic": "landscape-leisure",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        },
+        {
+          "type": "message",
+          "id": "1b43d4793c586227",
+          "user": "404NotFound",
+          "avatarSeed": "711bb51f",
+          "excerpt": "我对于曲江池的热爱始于他的夜景。 华灯初上时，旁边摩登的W酒店和古色古香的阅江楼遥相呼应，几座亭子在葱郁的树林和大片湖水中点缀着，点亮黑暗。 身处其间，让我总会不经意间想起那一千余年前的大唐长安城：那些科举及...…",
+          "publishedAt": "2024-05-27",
+          "source": "xiaohongshu",
+          "likes": 188,
+          "topic": "landscape-leisure",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        },
+        {
+          "type": "message",
+          "id": "029f2a23f9887054",
+          "user": "霜降",
+          "avatarSeed": "f4685986",
+          "excerpt": "被豆包安利的西安跑步公园，雪后我来到曲江池这里，曲江亭裹着莹白，跑道上的雪印歪歪扭扭，像写给冬日的诗。 我把风景记在心里，把脚印留在曲江池公园，算是冬天独有的浪漫。",
+          "publishedAt": "2026-01-20",
+          "source": "xiaohongshu",
+          "likes": 110,
+          "topic": "landscape-leisure",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        }
+      ]
+    },
+    {
+      "id": "family-ecology",
+      "title": "孩子、动物与被共同照看的湖岸",
+      "intro": "亲子活动与生态体验相互交织，也提醒人们对投喂和放生保持克制。",
+      "items": [
+        {
+          "type": "message",
+          "id": "fbb7d91f7daa102a",
+          "user": "WiFi依赖症",
+          "avatarSeed": "bedc4e46",
+          "excerpt": "这里是曲江池遗址公园，作为一个免费景点强烈推荐大家去打卡，晚上拍夜景真的绝绝子，中西式建筑相互衬托，沿着湖边散步，吹着 夜晚的晚风，超级自由与舒服，推荐大家晚上7点到8.30左右去，这个时候的天微微蓝，映衬的湖水也是蓝的，湖里还有大鹅，注意看护好小朋友…",
+          "publishedAt": "2023-04-07",
+          "source": "xiaohongshu",
+          "likes": 1434,
+          "topic": "family-ecology",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        },
+        {
+          "type": "message",
+          "id": "fdd534f8e3a5464b",
+          "user": "流浪猫",
+          "avatarSeed": "84e6e090",
+          "excerpt": "曲江池适合大人和孩子一起游园。湖景、古建筑和开阔空间，让晴天的周末变得很舒服。",
+          "publishedAt": "2023-11-18",
+          "source": "xiaohongshu",
+          "likes": 1383,
+          "topic": "family-ecology",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        },
+        {
+          "type": "message",
+          "id": "4495a85bcdcf7d26",
+          "user": "CtrlZ",
+          "avatarSeed": "c61f91c5",
+          "excerpt": "秋色倒映在湖水里，鹅群在水面嬉戏，小朋友在岸边看鹅，公园因此多了生活的活力。",
+          "publishedAt": "2024-11-16",
+          "source": "xiaohongshu",
+          "likes": 145,
+          "topic": "family-ecology",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        },
+        {
+          "type": "message",
+          "id": "eca3d59bee343287",
+          "user": "Luna",
+          "avatarSeed": "20673dc2",
+          "excerpt": "地铁开通后，带孩子来曲江池方便了很多。跳石头、看鸭子和儿童攀爬区，足够玩上一整天。",
+          "publishedAt": "2025-01-03",
+          "source": "xiaohongshu",
+          "likes": 592,
+          "topic": "family-ecology",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        },
+        {
+          "type": "message",
+          "id": "888d46e516544a0f",
+          "user": "Kiki",
+          "avatarSeed": "92c79fc5",
+          "excerpt": "儿童乐园有攀爬架和滑梯，旁边还有开阔草坪。孩子在这里活动，大人也能沿湖慢慢散步。",
+          "publishedAt": "2025-01-21",
+          "source": "xiaohongshu",
+          "likes": 107,
+          "topic": "family-ecology",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        }
+      ]
+    },
+    {
+      "id": "traffic-flow",
+      "title": "交通更方便之后，公园发生了什么？",
+      "intro": "新的交通条件扩大了到访范围，也改变了人流和使用节奏。",
+      "items": [
+        {
+          "type": "message",
+          "id": "7af6418690fe462a",
+          "user": "奶泡儿",
+          "avatarSeed": "83d10808",
+          "excerpt": "整理素材的时候发照了这张晚霞下的轻轨掠过的曲江南湖公园阅江楼，背后隐约还可以看见电视塔，高新区锦业路CBD，还有正在修建中的南飞鸿广场，很是喜欢这样竖构图的感觉…",
+          "publishedAt": "2023-02-23",
+          "source": "xiaohongshu",
+          "likes": 175,
+          "topic": "traffic-flow",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        },
+        {
+          "type": "message",
+          "id": "4e79643430253bbe",
+          "user": "随便叫啥",
+          "avatarSeed": "474b9166",
+          "excerpt": "八号线开通以后，曲江池的人明显多了。虽然不再像以前那样安静，我还是喜欢来这里散步。",
+          "publishedAt": "2025-03-31",
+          "source": "xiaohongshu",
+          "likes": 106,
+          "topic": "traffic-flow",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        }
+      ]
+    },
+    {
+      "id": "public-governance",
+      "title": "公共公园属于谁，又该由谁维护？",
+      "intro": "开放、公平使用、商业经营与环境维护，构成了最集中的公共讨论。",
+      "items": [
+        {
+          "type": "message",
+          "id": "7b656746fb041a9a",
+          "user": "已读不回",
+          "avatarSeed": "c3f7f80c",
+          "excerpt": "所有西安人都看到曲江池环境好，那不都是我们这些常年居住在附近的居民日常遵守规则细心维护的结果吗？ 那些各种禁止告示牌形同虚设，照现在这个速度糟蹋下去，出不了三个月就毁了。",
+          "publishedAt": "2025-03-25",
+          "source": "xiaohongshu",
+          "likes": 0,
+          "topic": "public-governance",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        },
+        {
+          "type": "message",
+          "id": "8ef1e0c56754b29e",
+          "user": "佛系选手",
+          "avatarSeed": "1f296b5d",
+          "excerpt": "晚上孩子想下楼遛个弯儿，在南湖里吃了个火锅，步行回家的路上这一幕幕让人心疼，电瓶车也能开进来了，围栏隔住的草坪和白砂也是随意被人踩踏。 甚至有几个来旅游的老外也有样学样的踩草坪。 曾经听取蛙声一片，荷花怒放的荷塘里一片狼藉，还飘着往生的鳖……小商贩也能随意摆摊儿了。…",
+          "publishedAt": "2025-05-02",
+          "source": "xiaohongshu",
+          "likes": 147,
+          "topic": "public-governance",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        },
+        {
+          "type": "message",
+          "id": "4d70321f36c82dde",
+          "user": "临时工",
+          "avatarSeed": "031e5ab8",
+          "excerpt": "灭掉的桥洞灯，不喷水的龙头，灯光调暗的阅江楼，永久终止的空中观光车，消失的红锦鲤，每隔200米一个1.8米的帅小伙保安也变成了整个园区就5-6个50多岁的大叔，执勤时候还一身酒气。 地铁口卖抄网的，园区遛狗的，曲江池子里捞鱼的，人行步道上骑自行车摩托车的，直播的，露营的，打牌煮茶的，放风筝的，入驻的卖房子打广告的~等等等等。…",
+          "publishedAt": "2025-07-14",
+          "source": "xiaohongshu",
+          "likes": 121,
+          "topic": "public-governance",
+          "excerpted": true,
+          "reviewStatus": "approved"
+        }
+      ]
+    }
+  ],
+  "quality": {
+    "originalCount": 50,
+    "retainedCount": 16,
+    "removedCount": 34,
+    "removedByReason": {
+      "promotion_or_off_topic": 4,
+      "multi_place_or_diluted": 3,
+      "duplicate_or_low_increment": 11,
+      "attack_or_social_division": 8,
+      "unsafe_ecology_or_distressing_detail": 3,
+      "redundant_same_author": 3,
+      "transient_route_or_season": 2
+    },
+    "uniqueUsers": 15,
+    "maxMessagesPerUser": 2,
+    "sourceCounts": {
+      "xiaohongshu": 16
+    },
+    "generatedAt": "2026-08-08"
+  }
+}

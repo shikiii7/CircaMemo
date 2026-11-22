@@ -1,0 +1,235 @@
+.page {
+  min-height: 70vh;
+  font-family: "Noto Sans SC", "Microsoft YaHei", "PingFang SC", Arial, Helvetica, sans-serif;
+  padding: 36px 24px 64px;
+  background:
+    radial-gradient(circle at 12% 0%, rgba(208, 165, 42, 0.1), transparent 32rem),
+    var(--background);
+}
+
+.shell {
+  width: min(100%, 900px);
+  margin: 0 auto;
+}
+
+.topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.backLink {
+  color: var(--color-pine);
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.backLink:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.brandNote {
+  color: var(--color-text-muted);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+}
+
+.masthead {
+  padding: 34px 0 30px;
+  border-top: 3px solid var(--color-pine);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.eyebrow {
+  margin: 0 0 12px;
+  color: var(--color-umber);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.masthead h1 {
+  margin: 0;
+  color: var(--color-pine-deep);
+  font-family: inherit;
+  font-size: clamp(34px, 6vw, 52px);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1.25;
+}
+
+.description {
+  max-width: 680px;
+  margin: 20px 0 0;
+  color: #405c52;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.meta {
+  margin: 14px 0 0;
+  color: var(--color-text-muted);
+  font-size: 12px;
+}
+
+.infoNav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 24px 0;
+}
+
+.infoNavLink {
+  padding: 7px 14px;
+  border: 1px solid var(--color-border-soft);
+  border-radius: 999px;
+  color: var(--color-text-muted);
+  background: rgba(255, 253, 247, 0.5);
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.infoNavLink:hover {
+  border-color: var(--color-pine);
+  color: var(--color-pine);
+}
+
+.infoNavLink[aria-current="page"] {
+  border-color: var(--color-pine);
+  color: var(--color-paper);
+  background: var(--color-pine);
+}
+
+.content {
+  padding: clamp(24px, 5vw, 52px);
+  border: 1px solid var(--color-border-soft);
+  background: var(--color-paper);
+  box-shadow: 0 18px 50px rgba(40, 57, 48, 0.07);
+  counter-reset: section;
+}
+
+.content section {
+  counter-increment: section;
+}
+
+.content section + section {
+  margin-top: 34px;
+  padding-top: 32px;
+  border-top: 1px solid var(--color-border-soft);
+}
+
+.content h2 {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  margin: 0 0 16px;
+  color: var(--color-pine-deep);
+  font-family: inherit;
+  font-size: 21px;
+  line-height: 1.5;
+}
+
+.content h2::before {
+  content: counter(section, decimal-leading-zero);
+  color: var(--color-umber);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.content p,
+.content li {
+  color: #405c52;
+  font-size: 15px;
+  line-height: 1.95;
+}
+
+.content p {
+  margin: 10px 0 0;
+}
+
+.content ul {
+  margin: 12px 0 0;
+  padding-left: 1.4em;
+}
+
+.content li + li {
+  margin-top: 8px;
+}
+
+.content strong {
+  color: var(--color-pine-deep);
+}
+
+.content a {
+  color: var(--color-pine);
+  overflow-wrap: anywhere;
+  text-underline-offset: 3px;
+}
+
+.contact {
+  margin-top: 24px;
+  padding: 18px 22px;
+  border-left: 3px solid var(--color-gold);
+  background: rgba(255, 253, 247, 0.64);
+}
+
+.contact strong {
+  color: var(--color-pine-deep);
+  font-size: 14px;
+}
+
+.contact p {
+  margin: 6px 0 0;
+  color: var(--color-text-muted);
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.contact a {
+  margin-left: 4px;
+  color: var(--color-pine);
+  text-underline-offset: 3px;
+}
+
+.backLink:focus-visible,
+.infoNavLink:focus-visible,
+.contact a:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 4px;
+}
+
+@media (max-width: 560px) {
+  .page {
+    padding: 24px 16px 40px;
+  }
+
+  .topline {
+    align-items: flex-start;
+  }
+
+  .brandNote {
+    max-width: 130px;
+    text-align: right;
+    line-height: 1.6;
+  }
+
+  .masthead {
+    padding-top: 26px;
+  }
+
+  .masthead h1 {
+    letter-spacing: 0.04em;
+  }
+
+  .content h2 {
+    gap: 10px;
+    font-size: 19px;
+  }
+}

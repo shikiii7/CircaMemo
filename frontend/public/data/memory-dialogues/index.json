@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "dialogues": [
+    {
+      "pid": "P383",
+      "pointName": "大明宫遗址",
+      "buttonLabel": "公众对话",
+      "panelTitle": "大明宫公众对话",
+      "file": "/data/memory-dialogues/P383.json"
+    },
+    {
+      "pid": "P246",
+      "pointName": "南墙遗址（曲江两处）",
+      "buttonLabel": "周边公众记忆",
+      "panelTitle": "周边公众记忆：曲江池遗址公园",
+      "file": "/data/memory-dialogues/P246.json"
+    }
+  ]
+}
