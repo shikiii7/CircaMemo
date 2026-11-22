@@ -91,7 +91,7 @@ psql -d YOUR_DATABASE_NAME -f sql/01_user_accounts.sql
 npm run dev
 ```
 
-访问 http://localhost:3000。
+启动后访问终端实际输出的本地地址，端口以启动日志为准。
 
 生产构建与启动：
 
