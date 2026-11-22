@@ -251,7 +251,7 @@ function buildGeoServerWmsTileUrl(
   y: number,
   z: number,
 ): string {
-  const url = new URL(tileUrl);
+  const url = new URL(tileUrl, window.location.origin);
   // 高德瓦片网格为 GCJ-02 偏移的 Web Mercator，GeoServer 数据为 WGS84：
   // bbox 需反算为真实 WGS84 范围（lib/geo.ts），否则历史地图与底图偏移数百米。
   const bbox = tileXYToBboxEPSG3857ForGcj(x, y, z);
@@ -261,7 +261,9 @@ function buildGeoServerWmsTileUrl(
   url.searchParams.set("format", "image/png");
   url.searchParams.set("bgcolor", "0xFFFFFF");
 
-  return `/api/geoserver-wms?${url.searchParams.toString()}`;
+  const proxyUrl = new URL("/api/geoserver-wms", window.location.origin);
+  proxyUrl.search = url.search;
+  return proxyUrl.toString();
 }
 
 function setTileLayerOpacity(layer: AMapTileLayer, opacity: number) {
