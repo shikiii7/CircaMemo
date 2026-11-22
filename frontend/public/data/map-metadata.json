@@ -10,7 +10,7 @@
     "period": "周秦汉唐",
     "file_name": "c1周秦汉唐都城变迁1.tif",
     "layer_name": "c1_zqhtdcbq",
-    "tile_url": "http://47.99.246.43:8080/geoserver/histupdate/wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1_zqhtdcbq&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
+    "tile_url": "/api/geoserver-wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1_zqhtdcbq&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
     "tile_scheme": "xyz",
     "default_opacity": 0.6,
     "active": true
@@ -26,7 +26,7 @@
     "period": "西汉",
     "file_name": "c8汉代长安图_1.tif",
     "layer_name": "c8_hdcat",
-    "tile_url": "http://47.99.246.43:8080/geoserver/histupdate/wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c8_hdcat&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
+    "tile_url": "/api/geoserver-wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c8_hdcat&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
     "tile_scheme": "xyz",
     "default_opacity": 0.6,
     "active": true
@@ -42,7 +42,7 @@
     "period": "唐",
     "file_name": "c700唐长安.tif",
     "layer_name": "c700_tca",
-    "tile_url": "http://47.99.246.43:8080/geoserver/histupdate/wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c700_tca&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
+    "tile_url": "/api/geoserver-wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c700_tca&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
     "tile_scheme": "xyz",
     "default_opacity": 0.6,
     "active": true
@@ -58,7 +58,7 @@
     "period": "唐",
     "file_name": "c728吕大防1080年绘唐长安图1.tif",
     "layer_name": "c728_ldf1080nhtcat",
-    "tile_url": "http://47.99.246.43:8080/geoserver/histupdate/wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c728_ldf1080nhtcat&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
+    "tile_url": "/api/geoserver-wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c728_ldf1080nhtcat&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
     "tile_scheme": "xyz",
     "default_opacity": 0.6,
     "active": true
@@ -74,7 +74,7 @@
     "period": "北宋",
     "file_name": "c1072北宋京兆府城图.tif",
     "layer_name": "c1072_bsjzfct",
-    "tile_url": "http://47.99.246.43:8080/geoserver/histupdate/wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1072_bsjzfct&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
+    "tile_url": "/api/geoserver-wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1072_bsjzfct&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
     "tile_scheme": "xyz",
     "default_opacity": 0.6,
     "active": true
@@ -90,7 +90,7 @@
     "period": "元",
     "file_name": "c1344元奉元路城图2.tif",
     "layer_name": "c1344_yfylct",
-    "tile_url": "http://47.99.246.43:8080/geoserver/histupdate/wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1344_yfylct&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
+    "tile_url": "/api/geoserver-wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1344_yfylct&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
     "tile_scheme": "xyz",
     "default_opacity": 0.6,
     "active": true
@@ -106,7 +106,7 @@
     "period": "明",
     "file_name": "c1542明西安府城.tif",
     "layer_name": "c1542_mxafc",
-    "tile_url": "http://47.99.246.43:8080/geoserver/histupdate/wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1542_mxafc&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
+    "tile_url": "/api/geoserver-wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1542_mxafc&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
     "tile_scheme": "xyz",
     "default_opacity": 0.6,
     "active": true
@@ -122,7 +122,7 @@
     "period": "清",
     "file_name": "c1735清西安府城.tif",
     "layer_name": "c1735_qxafc",
-    "tile_url": "http://47.99.246.43:8080/geoserver/histupdate/wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1735_qxafc&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
+    "tile_url": "/api/geoserver-wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1735_qxafc&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
     "tile_scheme": "xyz",
     "default_opacity": 0.6,
     "active": true
@@ -138,7 +138,7 @@
     "period": "近现代",
     "file_name": "c1893西安.tif",
     "layer_name": "c1893_xa",
-    "tile_url": "http://47.99.246.43:8080/geoserver/histupdate/wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1893_xa&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
+    "tile_url": "/api/geoserver-wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1893_xa&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
     "tile_scheme": "xyz",
     "default_opacity": 0.6,
     "active": true
@@ -154,7 +154,7 @@
     "period": "近现代",
     "file_name": "c1914年陕西省城图.tif",
     "layer_name": "c1914_nsxsct",
-    "tile_url": "http://47.99.246.43:8080/geoserver/histupdate/wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1914_nsxsct&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
+    "tile_url": "/api/geoserver-wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1914_nsxsct&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
     "tile_scheme": "xyz",
     "default_opacity": 0.6,
     "active": true
@@ -170,7 +170,7 @@
     "period": "近现代",
     "file_name": "c1917西安地图.tif",
     "layer_name": "c1917_xa",
-    "tile_url": "http://47.99.246.43:8080/geoserver/histupdate/wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1917_xa&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
+    "tile_url": "/api/geoserver-wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1917_xa&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
     "tile_scheme": "xyz",
     "default_opacity": 0.6,
     "active": true
@@ -186,7 +186,7 @@
     "period": "近现代",
     "file_name": "c1930年陕西省城图.tif",
     "layer_name": "c1930_nsxsct",
-    "tile_url": "http://47.99.246.43:8080/geoserver/histupdate/wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1930_nsxsct&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
+    "tile_url": "/api/geoserver-wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1930_nsxsct&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
     "tile_scheme": "xyz",
     "default_opacity": 0.6,
     "active": true
@@ -202,7 +202,7 @@
     "period": "近现代",
     "file_name": "c1933西安城区.tif",
     "layer_name": "c1933_xacq",
-    "tile_url": "http://47.99.246.43:8080/geoserver/histupdate/wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1933_xacq&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
+    "tile_url": "/api/geoserver-wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1933_xacq&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
     "tile_scheme": "xyz",
     "default_opacity": 0.6,
     "active": true
@@ -218,7 +218,7 @@
     "period": "近现代",
     "file_name": "c1935年西京胜迹图.tif",
     "layer_name": "c1935_nxjsjt",
-    "tile_url": "http://47.99.246.43:8080/geoserver/histupdate/wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1935_nxjsjt&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
+    "tile_url": "/api/geoserver-wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1935_nxjsjt&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
     "tile_scheme": "xyz",
     "default_opacity": 0.6,
     "active": true
@@ -234,7 +234,7 @@
     "period": "近现代",
     "file_name": "c1939年西京形势图.tif",
     "layer_name": "c1939_nxjxst",
-    "tile_url": "http://47.99.246.43:8080/geoserver/histupdate/wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1939_nxjxst&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
+    "tile_url": "/api/geoserver-wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1939_nxjxst&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
     "tile_scheme": "xyz",
     "default_opacity": 0.6,
     "active": true
@@ -250,7 +250,7 @@
     "period": "近现代",
     "file_name": "c1945最新西京市城关图.tif",
     "layer_name": "c1945_zxxjscgt",
-    "tile_url": "http://47.99.246.43:8080/geoserver/histupdate/wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1945_zxxjscgt&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
+    "tile_url": "/api/geoserver-wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1945_zxxjscgt&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
     "tile_scheme": "xyz",
     "default_opacity": 0.6,
     "active": true
@@ -266,7 +266,7 @@
     "period": "近现代",
     "file_name": "c1946西安城市关图拼接图.tif",
     "layer_name": "c1946_xacsgtpjt",
-    "tile_url": "http://47.99.246.43:8080/geoserver/histupdate/wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1946_xacsgtpjt&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
+    "tile_url": "/api/geoserver-wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1946_xacsgtpjt&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
     "tile_scheme": "xyz",
     "default_opacity": 0.6,
     "active": true
@@ -282,7 +282,7 @@
     "period": "近现代",
     "file_name": "c1949西安城区.tif",
     "layer_name": "c1949_xacq",
-    "tile_url": "http://47.99.246.43:8080/geoserver/histupdate/wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1949_xacq&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
+    "tile_url": "/api/geoserver-wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1949_xacq&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
     "tile_scheme": "xyz",
     "default_opacity": 0.6,
     "active": true
@@ -298,7 +298,7 @@
     "period": "近现代",
     "file_name": "c1965西安城区.tif",
     "layer_name": "c1965_xacq",
-    "tile_url": "http://47.99.246.43:8080/geoserver/histupdate/wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1965_xacq&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
+    "tile_url": "/api/geoserver-wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1965_xacq&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
     "tile_scheme": "xyz",
     "default_opacity": 0.6,
     "active": true
@@ -314,7 +314,7 @@
     "period": "近现代",
     "file_name": "c1975西安城区.tif",
     "layer_name": "c1975_xacq",
-    "tile_url": "http://47.99.246.43:8080/geoserver/histupdate/wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1975_xacq&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
+    "tile_url": "/api/geoserver-wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1975_xacq&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
     "tile_scheme": "xyz",
     "default_opacity": 0.6,
     "active": true
@@ -330,7 +330,7 @@
     "period": "近现代",
     "file_name": "c1981西安城区.tif",
     "layer_name": "c1981_xacq",
-    "tile_url": "http://47.99.246.43:8080/geoserver/histupdate/wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1981_xacq&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
+    "tile_url": "/api/geoserver-wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1981_xacq&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
     "tile_scheme": "xyz",
     "default_opacity": 0.6,
     "active": true
@@ -346,7 +346,7 @@
     "period": "近现代",
     "file_name": "c1996西安城区.tif",
     "layer_name": "c1996_xacq",
-    "tile_url": "http://47.99.246.43:8080/geoserver/histupdate/wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1996_xacq&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
+    "tile_url": "/api/geoserver-wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c1996_xacq&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
     "tile_scheme": "xyz",
     "default_opacity": 0.6,
     "active": true
@@ -362,7 +362,7 @@
     "period": "近现代",
     "file_name": "c2003西安城区.tif",
     "layer_name": "c2003_xacq",
-    "tile_url": "http://47.99.246.43:8080/geoserver/histupdate/wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c2003_xacq&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
+    "tile_url": "/api/geoserver-wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c2003_xacq&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
     "tile_scheme": "xyz",
     "default_opacity": 0.6,
     "active": true
@@ -378,7 +378,7 @@
     "period": "近现代",
     "file_name": "c2006西安城区.tif",
     "layer_name": "c2006_xacq",
-    "tile_url": "http://47.99.246.43:8080/geoserver/histupdate/wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c2006_xacq&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
+    "tile_url": "/api/geoserver-wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c2006_xacq&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
     "tile_scheme": "xyz",
     "default_opacity": 0.6,
     "active": true
@@ -394,7 +394,7 @@
     "period": "近现代",
     "file_name": "c2009西安城区.tif",
     "layer_name": "c2009_xacq",
-    "tile_url": "http://47.99.246.43:8080/geoserver/histupdate/wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c2009_xacq&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
+    "tile_url": "/api/geoserver-wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c2009_xacq&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
     "tile_scheme": "xyz",
     "default_opacity": 0.6,
     "active": true
@@ -410,7 +410,7 @@
     "period": "近现代",
     "file_name": "c2013西安城区.tif",
     "layer_name": "c2013_xacq",
-    "tile_url": "http://47.99.246.43:8080/geoserver/histupdate/wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c2013_xacq&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
+    "tile_url": "/api/geoserver-wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c2013_xacq&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
     "tile_scheme": "xyz",
     "default_opacity": 0.6,
     "active": true
@@ -426,7 +426,7 @@
     "period": "近现代",
     "file_name": "c2099西安交通旅游图.tif",
     "layer_name": "c2099_xajtlyt",
-    "tile_url": "http://47.99.246.43:8080/geoserver/histupdate/wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c2099_xajtlyt&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
+    "tile_url": "/api/geoserver-wms?service=WMS&version=1.1.0&request=GetMap&layers=histupdate:c2099_xajtlyt&bbox={bbox-epsg-3857}&width=256&height=256&srs=EPSG:3857&format=image/png&transparent=true",
     "tile_scheme": "xyz",
     "default_opacity": 0.6,
     "active": true
