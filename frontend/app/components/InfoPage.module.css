@@ -66,7 +66,7 @@
 .description {
   max-width: 680px;
   margin: 20px 0 0;
-  color: #405c52;
+  color: var(--color-body-text);
   font-size: 16px;
   line-height: 1.9;
 }
@@ -145,7 +145,7 @@
 
 .content p,
 .content li {
-  color: #405c52;
+  color: var(--color-body-text);
   font-size: 15px;
   line-height: 1.95;
 }
@@ -171,6 +171,20 @@
   color: var(--color-pine);
   overflow-wrap: anywhere;
   text-underline-offset: 3px;
+}
+
+.content .aiTip {
+  padding: 20px 22px;
+  border-left: 4px solid #c8787c;
+  border-radius: 8px;
+  background: #f8e6e6;
+}
+
+.content .aiTip p {
+  color: #262626;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.8;
 }
 
 .contact {
