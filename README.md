@@ -69,7 +69,8 @@ POSTGRES_PASSWORD=你的数据库密码
 
 NEXT_PUBLIC_AMAP_KEY=你的高德Key
 NEXT_PUBLIC_AMAP_SECURITY_CODE=你的高德SecurityCode
-NEXT_PUBLIC_IMG_BASE_URL=https://img.chronocityatlas.com
+NEXT_PUBLIC_IMG_BASE_URL=你的图片服务基础地址
+GEOSERVER_WMS_URL=你的GeoServerWMS接口地址
 ```
 
 `.env.local` 包含私有配置，不应提交到 Git。
@@ -109,9 +110,9 @@ https://github.com/shikiii7/CircaMemo/tree/main/data
 
 ## 外部服务
 
-- 地图底图需要有效的高德地图 Key。
-- 遗产与非遗封面通过 `NEXT_PUBLIC_IMG_BASE_URL` 加载。
-- 历史地图默认使用项目现有 GeoServer WMS。部署自己的服务时，可通过 `GEOSERVER_WMS_URL` 覆盖地址，并确保 `frontend/public/data/map-metadata.json` 中的图层名与服务一致。
+- 地图底图需要部署者自己的高德地图 Key 与 Security Code。
+- 遗产与非遗封面由部署者自行准备，并通过 `NEXT_PUBLIC_IMG_BASE_URL` 配置图片服务基础地址；公开数据中的 `cover_image_key` 是相对于该地址的资源路径。
+- 历史地图需要部署者自己的 GeoServer WMS，并通过 `GEOSERVER_WMS_URL` 配置接口。`frontend/public/data/map-metadata.json` 使用本站 `/api/geoserver-wms` 代理，图层名需与部署者的服务一致；未配置接口时历史地图不可用，其他地图功能不受影响。
 - 用户上传图片默认保存在 `data/uploads/user-content/`，可通过 `USER_UPLOAD_DIR` 修改。备份用户数据时应同时备份数据库和该目录。
 - 城市记忆相册的 JSON 内容包含在仓库中；其派生 WebP 图片需按 `frontend/public/images/memory-albums/` 中的对应路径单独部署，该图片目录不纳入 Git。
 

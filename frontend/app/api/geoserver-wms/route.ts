@@ -1,9 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { PNG } from "pngjs";
 
-const GEOSERVER_WMS_URL =
-  process.env.GEOSERVER_WMS_URL ??
-  "http://47.99.246.43:8080/geoserver/histupdate/wms";
+const GEOSERVER_WMS_URL = process.env.GEOSERVER_WMS_URL;
 const BLACK_EDGE_THRESHOLD = 35;
 
 function isBlackPixel(data: Buffer, pixelIndex: number): boolean {
@@ -60,6 +58,13 @@ function removeConnectedBlackEdge(imageBuffer: Buffer): Buffer {
 }
 
 export async function GET(request: NextRequest) {
+  if (!GEOSERVER_WMS_URL) {
+    return NextResponse.json(
+      { success: false, error: "GEOSERVER_WMS_URL is not configured" },
+      { status: 503 },
+    );
+  }
+
   const upstreamUrl = new URL(GEOSERVER_WMS_URL);
 
   for (const [key, value] of request.nextUrl.searchParams.entries()) {
