@@ -57,7 +57,7 @@
   border: 1px solid rgba(151, 105, 55, 0.32);
   border-radius: 10px;
   background: #fffdf8;
-  color: var(--foreground);
+  color: var(--color-body-text);
   font-family: inherit;
   font-size: 14px;
   line-height: 1.6;
@@ -223,7 +223,7 @@
   border: 0;
   border-radius: 8px;
   background: transparent;
-  color: var(--foreground);
+  color: var(--color-body-text);
   cursor: pointer;
   font-family: inherit;
   font-size: 13px;
@@ -376,7 +376,7 @@
 
 .recordBody {
   margin: 9px 0 0;
-  color: #405c52;
+  color: var(--color-body-text);
   font-size: 14px;
   line-height: 1.85;
   white-space: pre-wrap;
@@ -673,7 +673,7 @@
   align-items: center;
   gap: 8px;
   min-width: 0;
-  color: var(--foreground);
+  color: var(--color-body-text);
   font-size: 13px;
 }
 
